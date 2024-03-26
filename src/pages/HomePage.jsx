@@ -3,7 +3,7 @@ import Events from "../components/Events";
 import Executive from "../components/Executive";
 import Footer from "../components/Footer";
 import Marquee from "../components/Marquee";
-import Landing from "../components/landing";
+import Landing from "../components/Landing";
 import { FaArrowDown } from "react-icons/fa";
 
 
