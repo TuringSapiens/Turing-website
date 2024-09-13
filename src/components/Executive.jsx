@@ -48,7 +48,7 @@ export default function Executive() {
               <div className='absolute -mt-28 w-full flex justify-center'>
                 <div className='h-60 w-60 bg-emerald-800 hover:bg-gradient-to-r hover:from-fuchsia-600 hover:to-purple-600 p-1 rounded-xl shadow-3xl'>
                   <img
-                    src='/src/assets/Vinayak.jpg'
+                    src='/assets/Vinayak.jpg'
                     alt
                     className=' object-cover h-full w-full rounded-xl shadow-2xl transform transition duration-500 hover:scale-125	'
                   />
