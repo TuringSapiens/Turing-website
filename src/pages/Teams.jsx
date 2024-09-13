@@ -21,7 +21,7 @@ export default function Teams() {
                             <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
                                 <img
                                     className="absolute object-cover w-full h-full rounded"
-                                    src="src\assets\Abhay.jpg"
+                                    src="\assets\Abhay.jpg"
                                     alt="Person"
                                 />
                             </div>
@@ -35,7 +35,7 @@ export default function Teams() {
                             <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
                                 <img
                                     className="absolute object-cover w-full h-full rounded"
-                                    src="src\assets\Aanya.jpg"
+                                    src="\assets\Aanya.jpg"
                                     alt="Person"
                                 />
                             </div>
@@ -49,7 +49,7 @@ export default function Teams() {
                             <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
                                 <img
                                     className="absolute object-cover w-full h-full rounded"
-                                    src="src\assets\Abhijeet.jpg"
+                                    src="\assets\Abhijeet.jpg"
                                     alt="Person"
                                 />
                             </div>
@@ -63,7 +63,7 @@ export default function Teams() {
                             <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
                                 <img
                                     className="absolute object-cover w-full h-full rounded"
-                                    src="src\assets\Harsh.png"
+                                    src="\assets\Harsh.png"
                                     alt="Person"
                                 />
                             </div>
