@@ -41,7 +41,7 @@ const Navbar = () => {
             <ul>
               <li>
                 <a href="/" className="flex items-center space-x-1">
-                  <img className="h-10 mr-3" src='/src/assets/ts_logo.jpg' alt="Turing Sapiens" />
+                  <img className="h-10 mr-3" src='/assets/ts_logo.jpg' alt="Turing Sapiens" />
                 </a>
               </li>
             </ul>

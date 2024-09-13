@@ -37,13 +37,13 @@ export default function Events() {
                                     <div class="w-full flex justify-between p-3">
                                         <div class="flex">
                                             <div class="rounded-full h-8 w-8 bg-gray-500 flex items-center justify-center overflow-hidden">
-                                                <img src="/src/assets/ts_icon.jpg" alt="profilepic" />
+                                                <img src="/assets/ts_icon.jpg" alt="profilepic" />
                                             </div>
                                             <span class="pt-1 ml-2 font-bold text-md text-black">Turing Saga</span>
                                         </div>
                                         <span class="px-2 hover:bg-gray-300 cursor-pointer rounded"><i class="fas fa-ellipsis-h pt-2 text-lg"></i></span>
                                     </div>
-                                    <img class="w-full bg-cover" src="/src/assets/turing_saga.jpg" />
+                                    <img class="w-full bg-cover" src="/assets/turing_saga.jpg" />
                                     <div class="px-3 pb-2">
                                         <div class="pt-2">
                                             <i class="far fa-heart cursor-pointer"></i>
@@ -62,13 +62,13 @@ export default function Events() {
                                     <div class="w-full flex justify-between p-3">
                                         <div class="flex">
                                             <div class="rounded-full h-8 w-8 bg-gray-500 flex items-center justify-center overflow-hidden">
-                                                <img src="/src/assets/ts_icon.jpg" alt="profilepic" />
+                                                <img src="/assets/ts_icon.jpg" alt="profilepic" />
                                             </div>
                                             <span class="pt-1 ml-2 font-bold text-md text-black">Fuure Forward</span>
                                         </div>
                                         <span class="px-2 hover:bg-gray-300 cursor-pointer rounded"><i class="fas fa-ellipsis-h pt-2 text-lg"></i></span>
                                     </div>
-                                    <img class="w-full bg-cover" src="/src/assets/Future_Forward.jpg" />
+                                    <img class="w-full bg-cover" src="/assets/Future_Forward.jpg" />
                                     <div class="px-3 pb-2">
                                         <div class="pt-2">
                                             <i class="far fa-heart cursor-pointer"></i>
@@ -86,13 +86,13 @@ export default function Events() {
                                     <div class="w-full flex justify-between p-3">
                                         <div class="flex">
                                             <div class="rounded-full h-8 w-8 bg-gray-500 flex items-center justify-center overflow-hidden">
-                                                <img src="/src/assets/ts_icon.jpg" alt="profilepic" />
+                                                <img src="/assets/ts_icon.jpg" alt="profilepic" />
                                             </div>
                                             <span class="pt-1 ml-2 font-bold text-md text-black">Turing Codelabs</span>
                                         </div>
                                         <span class="px-2 hover:bg-gray-300 cursor-pointer rounded"><i class="fas fa-ellipsis-h pt-2 text-lg"></i></span>
                                     </div>
-                                    <img class="w-full bg-cover" src="/src/assets/turing_codelabs.jpg" />
+                                    <img class="w-full bg-cover" src="/assets/turing_codelabs.jpg" />
                                     <div class="px-3 pb-2">
                                         <div class="pt-2">
                                             <i class="far fa-heart cursor-pointer"></i>
@@ -111,13 +111,13 @@ export default function Events() {
                                     <div class="w-full flex justify-between p-3">
                                         <div class="flex">
                                             <div class="rounded-full h-8 w-8 bg-gray-500 flex items-center justify-center overflow-hidden">
-                                                <img src="/src/assets/ts_icon.jpg" alt="profilepic" />
+                                                <img src="/assets/ts_icon.jpg" alt="profilepic" />
                                             </div>
                                             <span class="pt-1 ml-2 font-bold text-md text-black">Turing Ninjas</span>
                                         </div>
                                         <span class="px-2 hover:bg-gray-300 cursor-pointer rounded"><i class="fas fa-ellipsis-h pt-2 text-lg"></i></span>
                                     </div>
-                                    <img class="w-full bg-cover" src="/src/assets/turing_ninja.jpg" />
+                                    <img class="w-full bg-cover" src="/assets/turing_ninja.jpg" />
                                     <div class="px-3 pb-2">
                                         <div class="pt-2">
                                             <i class="far fa-heart cursor-pointer"></i>

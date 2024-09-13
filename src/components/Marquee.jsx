@@ -9,13 +9,13 @@ export default function Marquee() {
                 <div class="pointer-events-none relative flex  x-overflow-hidden">
 
                     <div class="flex min-w-full shrink-0 animate-marquee items-center justify-around ">
-                        <img class="w-52 h-28 rounded-md  shadow-md" src="/src/assets/microsoft.jpg" alt="" />
-                        <img class="w-52 h-28 rounded-md  shadow-md" src="/src/assets/alexa.png" alt="" />
+                        <img class="w-52 h-28 rounded-md  shadow-md" src="/assets/microsoft.jpg" alt="" />
+                        <img class="w-52 h-28 rounded-md  shadow-md" src="/assets/alexa.png" alt="" />
                     </div>
 
                     <div class="flex min-w-full shrink-0 animate-marquee items-center justify-around ">
-                        <img class="w-52 h-28 rounded-md  shadow-md" src="/src/assets/houseltt.png" alt="" />
-                        <img class="w-52 h-28 rounded-md  shadow-md" src="/src/assets/yocket.png" alt="" />
+                        <img class="w-52 h-28 rounded-md  shadow-md" src="/assets/houseltt.png" alt="" />
+                        <img class="w-52 h-28 rounded-md  shadow-md" src="/assets/yocket.png" alt="" />
                     </div>
                 </div>
             </div>

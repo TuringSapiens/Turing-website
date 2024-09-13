@@ -114,7 +114,7 @@ export default function Footer() {
                         <div class="mb-6 md:mb-0">
                             <a href="/" class="flex items-center">
                                 <img
-                                    src='/src/assets/ts_logo.jpg'
+                                    src='/assets/ts_logo.jpg'
                                     className="h-10 mr-3"
                                     alt="Turing Sapiens Logo"
                                 />
