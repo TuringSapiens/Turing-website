@@ -52,22 +52,35 @@ const CustomTerminal = () => {
     }),
     about: () => ({
       type: 'success',
-      content: `Turing Sapiens is a computer science club dedicated to fostering learning and innovation.
-We organize workshops, hackathons, and tech talks to build a strong tech community.`
+      content: `
+---------------------------       ╔══════════════════════════════════════════════════════╗
+OS: Manipal University Jaipur     ║ ████████╗ ██╗   ██╗ ██████╗  ██╗ ███╗   ██╗  ██████╗ ║
+Host: Turing Sapiens Club         ║ ╚══██╔══╝ ██║   ██║ ██╔══██╗ ██║ ████╗  ██║ ██╔════╝ ║
+Kernel: Computer Science          ║    ██║    ██║   ██║ ██████╔╝ ██║ ██╔██╗ ██║ ██║  ███╗║
+Founded: 2023                     ║    ██║    ██║   ██║ ██╔══██╗ ██║ ██║╚██╗██║ ██║   ██║║
+Members: 100+                     ║    ██║    ╚██████╔╝ ██║  ██║ ██║ ██║ ╚████║ ╚██████╔╝║
+Projects: 10+                     ║    ╚═╝     ╚═════╝  ╚═╝  ╚═╝ ╚═╝ ╚═╝  ╚═══╝  ╚═════╝ ║
+                                 ║                                                        ║
+Contact                          ║ ███████╗  █████╗  ██████╗  ██╗ ███████╗ ███╗   ██╗ ███████╗ ║
+---------------------------      ║ ██╔════╝ ██╔══██╗ ██╔══██╗ ██║ ██╔════╝ ████╗  ██║ ██╔════╝ ║
+Email: team@turingsapiens.org    ║ ███████╗ ███████║ ██████╔╝ ██║ █████╗   ██╔██╗ ██║ ███████╗ ║
+GitHub: github.com/turingsapiens ║ ╚════██║ ██╔══██║ ██╔═══╝  ██║ ██╔══╝   ██║╚██╗██║ ╚════██║ ║
+Discord: discord.gg/turingsapiens║ ███████║ ██║  ██║ ██║      ██║ ███████╗ ██║ ╚████║ ███████║ ║
+                                 ║ ╚══════╝ ╚═╝  ╚═╝ ╚═╝      ╚═╝ ╚══════╝ ╚═╝  ╚═══╝ ╚══════╝ ║
+                                 ╚══════════════════════════════════════════════════════╝
+Type 'help' to see more commands
+`
     }),
     events: () => ({
       type: 'success',
       content: `Upcoming Events:
-- Hackathon 2025 (March 15-16)
-- AI Workshop Series (April 1-30)
-- Tech Talk: Future of Computing (May 5)`
+- Coming Soon...`
     }),
     team: () => ({
       type: 'success',
       content: `Team Members:
-- Alex Chen (President)
-- Sarah Johnson (Vice President)
-- Michael Zhang (Technical Lead)`
+- Abhijeet Anand Jha (President)
+`
     }),
     contact: () => ({
       type: 'success',
@@ -133,18 +146,22 @@ Discord: discord.gg/turingsapiens`
 
   return (
     <div
-      className="h-96 bg-black rounded-lg overflow-hidden flex flex-col"
+      className="h-96 bg-black rounded-xl overflow-hidden flex flex-col
+                 shadow-[0_0_15px_rgba(0,255,0,0.3)] 
+                 border border-green-500/30
+                 transition-all duration-300 hover:shadow-[0_0_20px_rgba(0,255,0,0.4)]"
       onClick={() => inputRef.current?.focus()}
     >
       <div
         ref={terminalRef}
-        className="flex-1 p-4 overflow-y-auto font-mono text-sm"
+        className="flex-1 p-4 overflow-y-auto font-mono text-sm whitespace-pre
+                   scrollbar-thin scrollbar-thumb-green-500/30 scrollbar-track-transparent"
       >
         {output.map((line, i) => (
           <div
             key={i}
             className={`mb-1 ${line.type === 'error' ? 'text-red-500' :
-                line.type === 'success' ? 'text-green-500' :
+                line.type === 'success' ? 'text-white' :
                   'text-gray-300'
               }`}
           >
