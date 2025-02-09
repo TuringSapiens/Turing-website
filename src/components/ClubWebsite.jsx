@@ -80,6 +80,12 @@ Type 'help' to see more commands
       type: 'success',
       content: `Team Members:
 - Abhijeet Anand Jha (President)
+- Trisha Sharma (Vice President)
+- Vishesh Gaur (General Secretary)
+- Chaitanya Sekra (Treasurer)
+- Pranshu Gautam (Techinal Secretary)
+- Aanya Gupta (Operations Manager)
+
 `
     }),
     contact: () => ({
@@ -161,8 +167,8 @@ Discord: discord.gg/turingsapiens`
           <div
             key={i}
             className={`mb-1 ${line.type === 'error' ? 'text-red-500' :
-                line.type === 'success' ? 'text-white' :
-                  'text-gray-300'
+              line.type === 'success' ? 'text-white' :
+                'text-gray-300'
               }`}
           >
             {line.content}
