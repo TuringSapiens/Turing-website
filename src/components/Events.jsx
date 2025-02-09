@@ -1,149 +1,94 @@
+import React from 'react';
+import { motion } from 'framer-motion';
+import { Calendar, MapPin } from 'lucide-react';
 import './Events.css'
 
+const eventData = [
+    {
+        title: "Hackathon 2024",
+        description: "Join us for a 24-hour coding marathon where innovation meets technology. Build projects, win prizes, and network with fellow developers.",
+        date: "March 15, 2024",
+        venue: "Block 1, Lab 3",
+        image: "https://placehold.co/600x400/000000/2F2F2F"
+    },
+    {
+        title: "Web Dev Workshop",
+        description: "Learn modern web development techniques using React, Next.js, and Tailwind CSS. Perfect for beginners and intermediate developers.",
+        date: "April 2, 2024",
+        venue: "Block 2, Seminar Hall",
+        image: "https://placehold.co/600x400/000000/2F2F2F"
+    },
+    {
+        title: "AI/ML Bootcamp",
+        description: "Dive deep into the world of Artificial Intelligence and Machine Learning. Hands-on experience with real-world projects.",
+        date: "April 15, 2024",
+        venue: "Block 3, Lab 5",
+        image: "https://placehold.co/600x400/000000/2F2F2F"
+    }
+];
 
-
-export default function Events() {
+const EventCard = ({ event }) => {
     return (
+        <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="w-full h-[400px] bg-black rounded-xl 
+                 shadow-[0_0_15px_rgba(0,255,0,0.3)] 
+                 border border-green-500/30
+                 transition-all duration-300 
+                 hover:shadow-[0_0_20px_rgba(0,255,0,0.4)]
+                 hover:transform hover:scale-105
+                 group"
+        >
+            <div className="h-[40%] overflow-hidden rounded-t-xl bg-neutral-900">
+                <img
+                    src={event.image}
+                    alt={event.title}
+                    className="w-full h-full object-cover opacity-50 
+                     group-hover:opacity-70 transition-opacity"
+                />
+            </div>
 
-        <>
+            <div className="p-6 space-y-3 h-[60%] flex flex-col">
+                <h3 className="text-xl font-bold text-white group-hover:text-green-400 
+                       transition-colors">{event.title}</h3>
 
-            <section class=" overflow-x-hidden">
-                <div class="py-8 px-4 mx-auto  lg:py-16 lg:px-6 ">
-                    <div class="mx-auto  text-center ">
+                <p className="text-gray-400 text-sm line-clamp-2 flex-grow">
+                    {event.description}
+                </p>
 
-
-                        <div className="grid text-center justify-center w-full ">
-                            <div className="bg-gradient-to-r from-emerald-500 to-emerald-900 w-max rounded-lg">
-                                <h2 class="mb-1 text-4xl tracking-tight font-extrabold text-white text-center bg-[#09070b]">Our Events</h2>
-                            </div>
-                        </div>
-
+                <div className="space-y-2">
+                    <div className="flex items-center text-green-500 gap-2">
+                        <Calendar className="w-4 h-4" />
+                        <span className="text-sm">{event.date}</span>
                     </div>
 
-
-                    
-
-
-
-                    <div id='events-section' className='flex  w-full h-full items-center justify-center pt-6' >
-                        <div className="fade-up">
-
-                            <div className=" lg:grid grid-cols-4 w-full gap-5  place-items-center justify-center overflow-x-hidden p-5">
-
-                               
-
-
-                                <div class=" rounded overflow-hidden border w-full  backdrop-blur-sm bg-white/30 mx-3 md:mx-0 lg:mx-0 ">
-                                    <div class="w-full flex justify-between p-3">
-                                        <div class="flex">
-                                            <div class="rounded-full h-8 w-8 bg-gray-500 flex items-center justify-center overflow-hidden">
-                                                <img src="/assets/ts_icon.jpg" alt="profilepic" />
-                                            </div>
-                                            <span class="pt-1 ml-2 font-bold text-md text-black">Turing Saga</span>
-                                        </div>
-                                        <span class="px-2 hover:bg-gray-300 cursor-pointer rounded"><i class="fas fa-ellipsis-h pt-2 text-lg"></i></span>
-                                    </div>
-                                    <img class="w-full bg-cover" src="/assets/turing_saga.jpg" />
-                                    <div class="px-3 pb-2">
-                                        <div class="pt-2">
-                                            <i class="far fa-heart cursor-pointer"></i>
-                                            <p class="text-base text-neutral-100 text-center p-1">
-                                                What a thrill at the Open Ground BGMI Gaming Event hosted by *Turing Sapiens* This event will always stand out because of the exhilarating battles, grand strategies, and glorious victory. A big thank you to all the fervent gamers who took part and shown their prowess.
-                                            </p>
-                                        </div>
-
-                                    </div>
-                                    <div
-        class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-green-700 bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-70"></div>
-    
-                                </div>
-
-                                <div class=" rounded overflow-hidden border w-full  backdrop-blur-sm bg-white/30 mx-3 md:mx-0 lg:mx-0 	">
-                                    <div class="w-full flex justify-between p-3">
-                                        <div class="flex">
-                                            <div class="rounded-full h-8 w-8 bg-gray-500 flex items-center justify-center overflow-hidden">
-                                                <img src="/assets/ts_icon.jpg" alt="profilepic" />
-                                            </div>
-                                            <span class="pt-1 ml-2 font-bold text-md text-black">Fuure Forward</span>
-                                        </div>
-                                        <span class="px-2 hover:bg-gray-300 cursor-pointer rounded"><i class="fas fa-ellipsis-h pt-2 text-lg"></i></span>
-                                    </div>
-                                    <img class="w-full bg-cover" src="/assets/Future_Forward.jpg" />
-                                    <div class="px-3 pb-2">
-                                        <div class="pt-2">
-                                            <i class="far fa-heart cursor-pointer"></i>
-                                            <p class="text-base text-neutral-100 text-center p-1">
-                                            What a fantastic opportunity it was to organise a thought-provoking webinar with our outstanding graduates who shared their expertise on how to master interviews and land dream internships. We've uncovered a wealth of job knowledge, from priceless advice to actual experiences
-                                            </p>
-                                        </div>
-
-                                    </div>
-                                    <div
-        class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-green-700 bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-70"></div>
-                                </div>
-
-                                <div class=" rounded overflow-hidden border w-full  backdrop-blur-sm bg-white/30 mx-3 md:mx-0 lg:mx-0 	">
-                                    <div class="w-full flex justify-between p-3">
-                                        <div class="flex">
-                                            <div class="rounded-full h-8 w-8 bg-gray-500 flex items-center justify-center overflow-hidden">
-                                                <img src="/assets/ts_icon.jpg" alt="profilepic" />
-                                            </div>
-                                            <span class="pt-1 ml-2 font-bold text-md text-black">Turing Codelabs</span>
-                                        </div>
-                                        <span class="px-2 hover:bg-gray-300 cursor-pointer rounded"><i class="fas fa-ellipsis-h pt-2 text-lg"></i></span>
-                                    </div>
-                                    <img class="w-full bg-cover" src="/assets/turing_codelabs.jpg" />
-                                    <div class="px-3 pb-2">
-                                        <div class="pt-2">
-                                            <i class="far fa-heart cursor-pointer"></i>
-                                            <p class="text-base text-neutral-100 text-center p-1">
-                                            In this workshop we had learned movie score prediction using BigQuery ML & AutoML which are powerful tool for predictive analytics with minimal code.We had set up dataset, trained model with SQL, assessed metrics and then deployed to Vertex AI. 
-                                            </p>
-                                        </div>
-
-                                    </div>
-                                    <div
-        class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-green-700 bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-70"></div>
-                                </div>
-
-
-                                <div class=" rounded overflow-hidden border w-full  backdrop-blur-sm bg-white/30 mx-3 md:mx-0 lg:mx-0 	">
-                                    <div class="w-full flex justify-between p-3">
-                                        <div class="flex">
-                                            <div class="rounded-full h-8 w-8 bg-gray-500 flex items-center justify-center overflow-hidden">
-                                                <img src="/assets/ts_icon.jpg" alt="profilepic" />
-                                            </div>
-                                            <span class="pt-1 ml-2 font-bold text-md text-black">Turing Ninjas</span>
-                                        </div>
-                                        <span class="px-2 hover:bg-gray-300 cursor-pointer rounded"><i class="fas fa-ellipsis-h pt-2 text-lg"></i></span>
-                                    </div>
-                                    <img class="w-full bg-cover" src="/assets/turing_ninja.jpg" />
-                                    <div class="px-3 pb-2">
-                                        <div class="pt-2">
-                                            <i class="far fa-heart cursor-pointer"></i>
-                                            <p class="text-base text-neutral-100 text-center p-1">
-                                            Turing Sapiens' successful collaboration with Coding Ninja gave rise to an unparalleled coding show. We have left our names in the annals of greatness in digital technology from the very last byte to the very last line. Join us as we decipher competitive coding's art 
-                                            </p>
-                                        </div>
-
-                                    </div>
-                                    <div
-        class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-green-700 bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-70"></div>
-                                </div>
-
-
-                                
-
-
-                            </div>
-                        </div>
+                    <div className="flex items-center text-green-500 gap-2">
+                        <MapPin className="w-4 h-4" />
+                        <span className="text-sm">{event.venue}</span>
                     </div>
-
                 </div>
-            </section>
 
-        </>
+                <button className="w-full py-2 bg-green-500/10 text-green-500 
+                          rounded-lg border border-green-500/30
+                          hover:bg-green-500/20 transition-colors
+                          font-medium mt-auto">
+                    View Details
+                </button>
+            </div>
+        </motion.div>
+    );
+};
 
+const Events = () => {
+    return (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-8">
+            {eventData.map((event, index) => (
+                <EventCard key={index} event={event} />
+            ))}
+        </div>
+    );
+};
 
-    )
-}
+export default Events;

@@ -8,42 +8,28 @@ import Teams from './pages/Teams';
 import Blog from './pages/Blog';
 import Membership from './pages/Membership';
 import Projects from './pages/Projects';
-
-
-
-
+import ClubWebsite from './components/ClubWebsite';
 
 function App() {
-
-
   return (
-    <>
-      <BrowserRouter>
+    <BrowserRouter>
+      <div className="flex flex-col min-h-screen">
         <NavBar />
-        {/* <div className="py-20"> */}
+        <main className="flex-grow">
           <Routes>
-            <Route path="/" element={<Home></Home>} />
-
-            <Route path="events" element={<Events/>} />
-
-            <Route path="blogs" element={<Blog />} />
-
-            <Route path="membership" element={<Membership />} />
-
-            <Route path="projects" element={<Projects />} />
-
-            <Route path="teams" element={<Teams />} />
-
-            <Route  path="/*" element={<Home />} />
-
-
+            <Route path="/" element={<Home />} />
+            <Route path="/events" element={<Events />} />
+            <Route path="/blogs" element={<Blog />} />
+            <Route path="/membership" element={<Membership />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/teams" element={<Teams />} />
+            <Route path="/terminal" element={<ClubWebsite />} />
+            <Route path="*" element={<Home />} />
           </Routes>
-        {/* </div> */}
+        </main>
         <Footer />
-      </BrowserRouter>
-
-
-    </>
+      </div>
+    </BrowserRouter>
   )
 }
 
