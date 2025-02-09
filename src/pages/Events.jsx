@@ -1,69 +1,75 @@
-export default function Events() {
+import React from 'react';
+import '../styles/Events.css';
+
+const Events = () => {
+    // Sample event data - this can be replaced with real data later
+    const events = [
+        {
+            id: 1,
+            title: 'Tech Workshop',
+            date: 'March 15, 2024',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            image: 'https://placehold.co/400x300'
+        },
+        {
+            id: 2,
+            title: 'Coding Competition',
+            date: 'April 2, 2024',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            image: 'https://placehold.co/400x300'
+        },
+        {
+            id: 3,
+            title: 'Hackathon 2024',
+            date: 'April 20, 2024',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            image: 'https://placehold.co/400x300'
+        },
+        {
+            id: 4,
+            title: 'AI Seminar',
+            date: 'May 5, 2024',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            image: 'https://placehold.co/400x300'
+        },
+        {
+            id: 5,
+            title: 'Web Dev Workshop',
+            date: 'May 15, 2024',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            image: 'https://placehold.co/400x300'
+        },
+        {
+            id: 6,
+            title: 'Tech Talk',
+            date: 'June 1, 2024',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            image: 'https://placehold.co/400x300'
+        }
+    ];
+
     return (
-
-        <>
-            <div class="py-20 bg-[#09070b]">
-
-                <h1 className='py-10 lg:text-6xl text-xl text-white font-bold text-center'> OUR EVENTS</h1>
-
-                <div class="sm:max-w-5xl px-3 pt-8  md:max-w-7xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 items-center sm:mx-16 sm:my-10 gap-12">
-
-
-                <div class="h-64 sm:h-96 mb-10 sm:mb-0 bg-gradient-to-r from-emerald-500 to-emerald-900 rounded-lg transform -rotate-6">
-                        <p class="text-lg text-neutral-100 text-center p-3 absolute rounded-lg">
-                        What a thrill at the Open Ground BGMI Gaming Event hosted by *Turing Sapiens* This event will always stand out because of the exhilarating battles, grand strategies, and glorious victory. A big thank you to all the fervent gamers who took part and shown their prowess.
-                        </p>
-                        <div class="w-full  h-full  rounded-lg transform rotate-6 shadow-lg focus:ring-2 relative">
-                            <div class=" flex sm:block items-center bg-[url(/src/assets/turing_saga.jpg)] w-full h-full bg-cover
-                             hover:bg-[url()]">
+        <div className="min-h-screen bg-[#09070b]">
+            <div className="events-container py-20">
+                <h1 className="text-5xl text-white font-bold mb-8 text-center">Upcoming Events</h1>
+                <div className="events-grid">
+                    {events.map((event) => (
+                        <div key={event.id} className="event-card bg-gray-800 text-white">
+                            <img src={event.image} alt={event.title} className="event-image" />
+                            <div className="event-content">
+                                <h2 className="text-2xl font-bold">{event.title}</h2>
+                                <p className="event-date text-gray-300">{event.date}</p>
+                                <p className="event-description text-gray-400">{event.description}</p>
+                                <button className="event-button bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded">
+                                    Learn More
+                                </button>
                             </div>
                         </div>
-                    </div>
-
-
-                    <div class="h-64 sm:h-96 mb-10 sm:mb-0 bg-gradient-to-r from-emerald-500 to-emerald-900 rounded-lg transform -rotate-6">
-                        <p class="text-lg text-neutral-100 text-center p-3 absolute rounded-lg">
-                            Turing Sapiens' successful collaboration with Coding Ninja gave rise to an unparalleled coding show. We have left our names in the annals of greatness in digital technology from the very last byte to the very last line. Join us as we decipher competitive coding's art
-                        </p>
-                        <div class="w-full  h-full  rounded-lg transform rotate-6 shadow-lg focus:ring-2 relative">
-                            <div class=" flex sm:block items-center bg-[url(/src/assets/turing_ninja.jpg)] w-full h-full bg-cover
-                             hover:bg-[url()]">
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="h-64 sm:h-96 mb-10 sm:mb-0 bg-gradient-to-r from-emerald-500 to-emerald-900 rounded-lg transform -rotate-6">
-                        <p class="text-lg text-neutral-100 text-center p-3 absolute rounded-lg">
-                            What a fantastic opportunity it was to organise a thought-provoking webinar with our outstanding graduates who shared their expertise on how to master interviews and land dream internships. We've uncovered a wealth of job knowledge, from priceless advice to actual experiences
-                        </p>
-                        <div class="w-full  h-full  rounded-lg transform rotate-6 shadow-lg focus:ring-2 relative">
-                            <div class=" flex sm:block items-center bg-[url(/src/assets/Future_Forward.jpg)] w-full h-full bg-cover
-                             hover:bg-[url()]">
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="h-64 sm:h-96 mb-10 sm:mb-0 bg-gradient-to-r from-emerald-500 to-emerald-900 rounded-lg transform -rotate-6">
-                        <p class="text-lg text-neutral-100 text-center p-3 absolute rounded-lg">
-                            In this workshop we had learned movie score prediction using BigQuery ML & AutoML which are powerful tool for predictive analytics with minimal code.We had set up dataset, trained model with SQL, assessed metrics and then deployed to Vertex AI.
-                        </p>
-                        <div class="w-full  h-full  rounded-lg transform rotate-6 shadow-lg focus:ring-2 relative">
-                            <div class=" flex sm:block items-center bg-[url(/src/assets/turing_codelabs.jpg)] w-full h-full bg-cover
-                             hover:bg-[url()]">
-                            </div>
-                        </div>
-                    </div>
-
+                    ))}
                 </div>
             </div>
+        </div>
+    );
+};
 
-
-
-
-        </>
-
-
-    )
-}
+export default Events;

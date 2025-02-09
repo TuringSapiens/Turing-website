@@ -20,25 +20,17 @@ function App() {
     <>
       <BrowserRouter>
         <NavBar />
-        {/* <div className="py-20"> */}
+        <main className="min-h-screen">
           <Routes>
-            <Route path="/" element={<Home></Home>} />
-
-            <Route path="events" element={<Events/>} />
-
+            <Route path="/" element={<Home />} />
+            <Route path="events" element={<Events />} />
             <Route path="blogs" element={<Blog />} />
-
             <Route path="membership" element={<Membership />} />
-
             <Route path="projects" element={<Projects />} />
-
             <Route path="teams" element={<Teams />} />
-
-            <Route  path="/*" element={<Home />} />
-
-
+            <Route path="/*" element={<Home />} />
           </Routes>
-        {/* </div> */}
+        </main>
         <Footer />
       </BrowserRouter>
 
