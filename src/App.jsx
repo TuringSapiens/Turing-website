@@ -9,7 +9,8 @@ import Blog from './pages/Blog';
 import Membership from './pages/Membership';
 import Projects from './pages/Projects';
 import ClubWebsite from './components/ClubWebsite';
-
+import Blog1Detail from "./components/Blog1Detail";
+import Blog1 from "./components/Blog1";
 function App() {
   return (
     <BrowserRouter>
@@ -20,6 +21,8 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/events" element={<Events />} />
             <Route path="/blogs" element={<Blog />} />
+            <Route path="/blog1-detail" element={<Blog1Detail />} />
+            <Route path="/" element={<Blog1 />} />
             <Route path="/membership" element={<Membership />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/teams" element={<Teams />} />
