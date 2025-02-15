@@ -48,7 +48,7 @@ export default function Executive() {
               <div className='absolute -mt-28 w-full flex justify-center'>
                 <div className='h-60 w-60 bg-emerald-800 hover:bg-gradient-to-r hover:from-fuchsia-600 hover:to-purple-600 p-1 rounded-xl shadow-3xl'>
                   <img
-                    src='/assets/Vinayak.jpg'
+                    src='/assets/Abhijeet.jpg'
                     alt
                     className=' object-cover h-full w-full rounded-xl shadow-2xl transform transition duration-500 hover:scale-125	'
                   />
@@ -56,7 +56,7 @@ export default function Executive() {
               </div>
               <div className='px-6 pt-36'>
                 <p className='font-bold text-2xl text-center pb-1 text-gray-100'>
-                  Vinayak Kanchan
+                  Abhijeet Jha
                 </p>
                 <p className='text-gray-100 text-md font-semibold text-center pb-2 italic'>
                   President
@@ -72,7 +72,7 @@ export default function Executive() {
               <div className='absolute -mt-28 w-full flex justify-center'>
                 <div className='h-60 w-60 bg-emerald-800 hover:bg-gradient-to-r hover:from-fuchsia-600 hover:to-purple-600 p-1 rounded-xl shadow-3xl'>
                   <img
-                    src='/assets/Atharv_image.jpg'
+                    src='/assets/Trisha.jpg'
                     alt
                     className=' object-cover h-full w-full rounded-xl shadow-2xl transform transition duration-500 hover:scale-125	'
                   />
@@ -80,7 +80,7 @@ export default function Executive() {
               </div>
               <div className='px-6 pt-36'>
                 <p className='font-bold text-2xl text-center pb-1 text-gray-100'>
-                  Atharv Gulati
+                  Trisha Sharma
                 </p>
                 <p className='text-gray-100 text-md font-semibold text-center pb-2 italic'>
                   Vice President
@@ -96,7 +96,7 @@ export default function Executive() {
               <div className='absolute -mt-28 w-full flex justify-center'>
                 <div className='h-60 w-60 bg-emerald-800 hover:bg-gradient-to-r hover:from-fuchsia-600 hover:to-purple-600 p-1 rounded-xl shadow-3xl'>
                   <img
-                    src='/assets/Aryan_Chauhan.jpg'
+                    src='/assets/vishesh.jpg'
                     alt
                     className=' object-cover h-full w-full rounded-xl shadow-2xl transform transition duration-500 hover:scale-125	'
                   />
@@ -104,7 +104,7 @@ export default function Executive() {
               </div>
               <div className='px-6 pt-36'>
                 <p className='font-bold text-2xl text-center pb-1 text-gray-100'>
-                  Aryan Chauhan
+                  Vishesh Gaur
                 </p>
                 <p className='text-gray-100 text-md font-semibold text-center pb-2 italic'>
                   General Secretary
@@ -120,7 +120,7 @@ export default function Executive() {
               <div className='absolute -mt-28 w-full flex justify-center'>
                 <div className='h-60 w-60 bg-emerald-800 hover:bg-gradient-to-r hover:from-fuchsia-600 hover:to-purple-600 p-1 rounded-xl shadow-3xl'>
                   <img
-                    src='/assets/Aditya_Singh.jpg'
+                    src='/assets/Aanya.jpg'
                     alt
                     className=' object-cover h-full w-full rounded-xl shadow-2xl transform transition duration-500 hover:scale-125	'
                   />
@@ -128,7 +128,7 @@ export default function Executive() {
               </div>
               <div className='px-6 pt-36'>
                 <p className='font-bold text-2xl text-center pb-1 text-gray-100'>
-                  Aditya Singh
+                  Aanya Gupta
                 </p>
                 <p className='text-gray-100 text-md font-semibold text-center pb-2 italic'>
                   Operations Manager
@@ -144,7 +144,7 @@ export default function Executive() {
               <div className='absolute -mt-28 w-full flex justify-center'>
                 <div className='h-60 w-60 bg-emerald-800 hover:bg-gradient-to-r hover:from-fuchsia-600 hover:to-purple-600 p-1 rounded-xl shadow-3xl'>
                   <img
-                    src='/assets/shubhum.jpg'
+                    src='/assets/Pranshu.jpg'
                     alt
                     className=' object-cover h-full w-full rounded-xl shadow-2xl transform transition duration-500 hover:scale-125	'
                   />
@@ -152,7 +152,7 @@ export default function Executive() {
               </div>
               <div className='px-6 pt-36'>
                 <p className='font-bold text-2xl text-center pb-1 text-gray-100'>
-                  Shubhum Dahatonde
+                  Pranshu Gautam
                 </p>
                 <p className='text-gray-100 text-md font-semibold text-center pb-2 italic'>
                   Technical Secretary
@@ -168,7 +168,7 @@ export default function Executive() {
               <div className='absolute -mt-28 w-full flex justify-center'>
                 <div className='h-60 w-60 bg-emerald-800 hover:bg-gradient-to-r hover:from-fuchsia-600 hover:to-purple-600 p-1 rounded-xl shadow-3xl'>
                   <img
-                    src='/assets/khushi.jpg'
+                    src='/assets/Chaitanya.jpg'
                     alt
                     className=' object-cover h-full w-full rounded-xl shadow-2xl transform transition duration-500 hover:scale-125	'
                   />
@@ -179,7 +179,7 @@ export default function Executive() {
                   Treasurer
                 </p>
                 <p className='text-gray-100 text-md font-semibold text-center pb-2 italic'>
-                  Khushi Sharma
+                  Chaitanya Sekra
                 </p>
 
                 <div className='flex justify-center mt-2  '></div>
