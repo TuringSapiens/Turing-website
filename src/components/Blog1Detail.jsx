@@ -3,7 +3,12 @@ import React from "react";
 const Blog1Detail = () => {
   return (
     <div className="min-h-screen px-6 py-12 bg-gradient-to-b from-black via-gray-900 to-black text-white mt-8">
-      
+      <button 
+        onClick={() => window.history.back(-1)} 
+        className="fixed bottom-6 right-6 px-4 py-2 bg-[#94d6df] text-black font-semibold rounded-lg shadow-md hover:bg-cyan-400 transition-all duration-300"
+      >
+        ← Back
+      </button>
       <div className="max-w-3xl mx-auto p-6 rounded-lg bg-white/5 backdrop-blur-md shadow-lg border border-white/10">
      
         
