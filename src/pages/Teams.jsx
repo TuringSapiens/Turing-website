@@ -26,7 +26,7 @@ export default function Teams() {
                                 />
                             </div>
                             <div className="flex flex-col sm:text-center">
-                                <p className="text-lg font-bold">Abhay Singh</p>
+                                <p className="text-lg font-bold">Heer Sharma</p>
                                 <p className="mb-5 text-md text-gray-500">Deputy Secretary</p>
 
                             </div>
@@ -40,7 +40,7 @@ export default function Teams() {
                                 />
                             </div>
                             <div className="flex flex-col sm:text-center">
-                                <p className="text-lg font-bold">Aanya Gupta</p>
+                                <p className="text-lg font-bold">Salil Mishra</p>
                                 <p className="mb-5 text-md text-gray-500">Deputy Technical Secretary</p>
 
                             </div>
@@ -54,7 +54,7 @@ export default function Teams() {
                                 />
                             </div>
                             <div className="flex flex-col sm:text-center">
-                                <p className="text-lg font-bold">Abhijeet Anand Jha</p>
+                                <p className="text-lg font-bold">Atharav R Gachchi</p>
                                 <p className="mb-5 text-md text-gray-500">Deputy Operation Manager</p>
 
                             </div>
@@ -68,7 +68,7 @@ export default function Teams() {
                                 />
                             </div>
                             <div className="flex flex-col sm:text-center">
-                                <p className="text-lg font-bold">Harsh Kumar</p>
+                                <p className="text-lg font-bold">Salail Mishra</p>
                                 <p className="mb-5 text-md text-gray-500">Deputy Technical Secretary</p>
 
                             </div>
@@ -108,61 +108,10 @@ export default function Teams() {
 
                             <tbody>
 
-
                                 <tr class="bg-gray-900">
 
                                     <td class="py-5 px-20">
-                                        <spam className="font-bold font-mono text-lg" > Rudraksh Khera</spam>
-                                    </td>
-                                    <td class="py-5 px-20 font-bold">
-                                        <spam className=" font-sans font-bold text-lg">Community Manager</spam>
-                                    </td>
-                                </tr>
-
-                                <tr class="bg-gray-900">
-
-                                    <td class="py-5 px-20">
-                                        <spam className="font-bold font-mono text-lg" > Ansh Aggarwal </spam>
-                                    </td>
-                                    <td class="py-5 px-20 font-bold">
-                                        <spam className=" font-sans font-bold text-lg">Community Manager</spam>
-                                    </td>
-                                </tr>
-
-                                <tr class="bg-gray-900">
-
-                                    <td class="py-5 px-20">
-                                        <spam className="font-bold font-mono text-lg" > Ashmit Sharma </spam>
-                                    </td>
-                                    <td class="py-5 px-20 font-bold">
-                                        <spam className=" font-sans font-bold text-lg">Community Manager</spam>
-                                    </td>
-                                </tr>
-
-                                <tr class="bg-gray-900">
-
-                                    <td class="py-5 px-20">
-                                        <spam className="font-bold font-mono text-lg" > Aditya Sharma</spam>
-                                    </td>
-                                    <td class="py-5 px-20 font-bold">
-                                        <spam className=" font-sans font-bold text-lg">Membership Head </spam>
-                                    </td>
-                                </tr>
-
-                                <tr class="bg-gray-900">
-
-                                    <td class="py-5 px-20">
-                                        <spam className="font-bold font-mono text-lg" > Priyanshi Bansal </spam>
-                                    </td>
-                                    <td class="py-5 px-20 font-bold">
-                                        <spam className=" font-sans font-bold text-lg">Membership Head </spam>
-                                    </td>
-                                </tr>
-
-                                <tr class="bg-gray-900">
-
-                                    <td class="py-5 px-20">
-                                        <spam className="font-bold font-mono text-lg" > Pranshu Gautam </spam>
+                                        <spam className="font-bold font-mono text-lg" > Dhruv Dave </spam>
                                     </td>
                                     <td class="py-5 px-20 font-bold">
                                         <spam className=" font-sans font-bold text-lg">Head Of Promotions</spam>
@@ -172,7 +121,7 @@ export default function Teams() {
                                 <tr class="bg-gray-900">
 
                                     <td class="py-5 px-20">
-                                        <spam className="font-bold font-mono text-lg" > Bhumika Pandey</spam>
+                                        <spam className="font-bold font-mono text-lg" > Sanskriti Mandal</spam>
                                     </td>
                                     <td class="py-5 px-20 font-bold">
                                         <spam className=" font-sans font-bold text-lg">Head Of Promotions</spam>
@@ -182,67 +131,36 @@ export default function Teams() {
                                 <tr class="bg-gray-900">
 
                                     <td class="py-5 px-20">
-                                        <spam className="font-bold font-mono text-lg" >Chehak</spam>
+                                        <spam className="font-bold font-mono text-lg" >Manmeet Kaur Anand</spam>
+                                    </td>
+                                    <td class="py-5 px-20 font-bold">
+                                        <spam className=" font-sans font-bold text-lg">Head Of Promotions</spam>
+                                    </td>
+                                </tr>
+                                <tr class="bg-gray-900">
+
+                                    <td class="py-5 px-20">
+                                        <spam className="font-bold font-mono text-lg" >Aayushi Chhabra</spam>
+                                    </td>
+                                    <td class="py-5 px-20 font-bold">
+                                        <spam className=" font-sans font-bold text-lg">Head Of Promotions</spam>
+                                    </td>
+                                </tr>
+                                <tr class="bg-gray-900">
+
+                                    <td class="py-5 px-20">
+                                        <spam className="font-bold font-mono text-lg" >Harshita Chopra</spam>
                                     </td>
                                     <td class="py-5 px-20 font-bold">
                                         <spam className=" font-sans font-bold text-lg">Head Of Promotions</spam>
                                     </td>
                                 </tr>
 
-                                <tr class="bg-gray-900">
-
-                                    <td class="py-5 px-20">
-                                        <spam className="font-bold font-mono text-lg" > Rohan Yadav</spam>
-                                    </td>
-                                    <td class="py-5 px-20 font-bold">
-                                        <spam className=" font-sans font-bold text-lg">Head Of Curation</spam>
-                                    </td>
-                                </tr>
 
                                 <tr class="bg-gray-900">
 
                                     <td class="py-5 px-20">
-                                        <spam className="font-bold font-mono text-lg" > Shreya Saxena </spam>
-                                    </td>
-                                    <td class="py-5 px-20 font-bold">
-                                        <spam className=" font-sans font-bold text-lg">Head Of Curation</spam>
-                                    </td>
-                                </tr>
-
-                                <tr class="bg-gray-900">
-
-                                    <td class="py-5 px-20">
-                                        <spam className="font-bold font-mono text-lg" > Sanyam Jain</spam>
-                                    </td>
-                                    <td class="py-5 px-20 font-bold">
-                                        <spam className=" font-sans font-bold text-lg">Head of Design</spam>
-                                    </td>
-                                </tr>
-
-                                <tr class="bg-gray-900">
-
-                                    <td class="py-5 px-20">
-                                        <spam className="font-bold font-mono text-lg" >Dhriti</spam>
-                                    </td>
-                                    <td class="py-5 px-20 font-bold">
-                                        <spam className=" font-sans font-bold text-lg">Head of Design</spam>
-                                    </td>
-                                </tr>
-
-                                <tr class="bg-gray-900">
-
-                                    <td class="py-5 px-20">
-                                        <spam className="font-bold font-mono text-lg" >Swatantra</spam>
-                                    </td>
-                                    <td class="py-5 px-20 font-bold">
-                                        <spam className=" font-sans font-bold text-lg">Head of Design</spam>
-                                    </td>
-                                </tr>
-
-                                <tr class="bg-gray-900">
-
-                                    <td class="py-5 px-20">
-                                        <spam className="font-bold font-mono text-lg" > Shobhit Pandey</spam>
+                                        <spam className="font-bold font-mono text-lg" > Harshada Chandel</spam>
                                     </td>
                                     <td class="py-5 px-20 font-bold">
                                         <spam className=" font-sans font-bold text-lg">Head of Design</spam>
@@ -250,10 +168,11 @@ export default function Teams() {
                                 </tr>
 
 
+
                                 <tr class="bg-gray-900">
 
                                     <td class="py-5 px-20">
-                                        <spam className="font-bold font-mono text-lg" > Nishtha</spam>
+                                        <spam className="font-bold font-mono text-lg" > Toshani Gupta</spam>
                                     </td>
                                     <td class="py-5 px-20 font-bold">
                                         <spam className=" font-sans font-bold text-lg">Head of Social  Media</spam>
@@ -263,7 +182,7 @@ export default function Teams() {
                                 <tr class="bg-gray-900">
 
                                     <td class="py-5 px-20">
-                                        <spam className="font-bold font-mono text-lg" >  Riya Kathuria</spam>
+                                        <spam className="font-bold font-mono text-lg" >  Dhvani Baid</spam>
                                     </td>
                                     <td class="py-5 px-20 font-bold">
                                         <spam className=" font-sans font-bold text-lg">Head of Social Media</spam>
@@ -303,7 +222,17 @@ export default function Teams() {
                                 <tr class="bg-gray-900">
 
                                     <td class="py-5 px-20">
-                                        <spam className="font-bold font-mono text-lg" > Aakash</spam>
+                                        <spam className="font-bold font-mono text-lg" > Paras Jain</spam>
+                                    </td>
+                                    <td class="py-5 px-20 font-bold">
+                                        <spam className=" font-sans font-bold text-lg">Head Of Finance & Registration</spam>
+                                    </td>
+                                </tr>
+
+                                <tr class="bg-gray-900">
+
+                                    <td class="py-5 px-20">
+                                        <spam className="font-bold font-mono text-lg" >  Manvi Bindal</spam>
                                     </td>
                                     <td class="py-5 px-20 font-bold">
                                         <spam className=" font-sans font-bold text-lg">Head Of Finance& Registration</spam>
@@ -313,17 +242,7 @@ export default function Teams() {
                                 <tr class="bg-gray-900">
 
                                     <td class="py-5 px-20">
-                                        <spam className="font-bold font-mono text-lg" >  Shubh Bansal</spam>
-                                    </td>
-                                    <td class="py-5 px-20 font-bold">
-                                        <spam className=" font-sans font-bold text-lg">Head Of Finance& Registration</spam>
-                                    </td>
-                                </tr>
-
-                                <tr class="bg-gray-900">
-
-                                    <td class="py-5 px-20">
-                                        <spam className="font-bold font-mono text-lg" >  Kumar Shashwat Sandilya</spam>
+                                        <spam className="font-bold font-mono text-lg" >  Kush Mathur</spam>
                                     </td>
                                     <td class="py-5 px-20 font-bold">
                                         <spam className=" font-sans font-bold text-lg"> Head Of Logistics</spam>
@@ -333,7 +252,7 @@ export default function Teams() {
                                 <tr class="bg-gray-900">
 
                                     <td class="py-5 px-20">
-                                        <spam className="font-bold font-mono text-lg" >  Vishesh Gaur</spam>
+                                        <spam className="font-bold font-mono text-lg" >  Himank</spam>
                                     </td>
                                     <td class="py-5 px-20 font-bold">
                                         <spam className=" font-sans font-bold text-lg"> Head Of Logistics</spam>
@@ -343,7 +262,25 @@ export default function Teams() {
                                 <tr class="bg-gray-900">
 
                                     <td class="py-5 px-20">
-                                        <spam className="font-bold font-mono text-lg" >  Samridhi Goyal</spam>
+                                        <spam className="font-bold font-mono text-lg" >  Jai Arora</spam>
+                                    </td>
+                                    <td class="py-5 px-20 font-bold">
+                                        <spam className=" font-sans font-bold text-lg"> Head Of Logistics</spam>
+                                    </td>
+                                </tr>
+                                <tr class="bg-gray-900">
+
+                                    <td class="py-5 px-20">
+                                        <spam className="font-bold font-mono text-lg" >  Paarth Chanana</spam>
+                                    </td>
+                                    <td class="py-5 px-20 font-bold">
+                                        <spam className=" font-sans font-bold text-lg"> Head Of Logistics</spam>
+                                    </td>
+                                </tr>
+                                <tr class="bg-gray-900">
+
+                                    <td class="py-5 px-20">
+                                        <spam className="font-bold font-mono text-lg" >  Abhimanyu Saxena</spam>
                                     </td>
                                     <td class="py-5 px-20 font-bold">
                                         <spam className=" font-sans font-bold text-lg"> Head Of Logistics</spam>
@@ -353,7 +290,7 @@ export default function Teams() {
                                 <tr class="bg-gray-900">
 
                                     <td class="py-5 px-20">
-                                        <spam className="font-bold font-mono text-lg" >  Rahul Singla</spam>
+                                        <spam className="font-bold font-mono text-lg" >  Siddhant Vashishtha</spam>
                                     </td>
                                     <td class="py-5 px-20 font-bold">
                                         <spam className=" font-sans font-bold text-lg">Head Of Events</spam>
@@ -363,7 +300,7 @@ export default function Teams() {
                                 <tr class="bg-gray-900">
 
                                     <td class="py-5 px-20">
-                                        <spam className="font-bold font-mono text-lg" >  Ryansh Arora</spam>
+                                        <spam className="font-bold font-mono text-lg" >  Lahari R Bavimane</spam>
                                     </td>
                                     <td class="py-5 px-20 font-bold">
                                         <spam className=" font-sans font-bold text-lg">Head Of Events</spam>
@@ -373,7 +310,16 @@ export default function Teams() {
                                 <tr class="bg-gray-900">
 
                                     <td class="py-5 px-20">
-                                        <spam className="font-bold font-mono text-lg" > Ishaan Oberoi</spam>
+                                        <spam className="font-bold font-mono text-lg" > Manas Sharma</spam>
+                                    </td>
+                                    <td class="py-5 px-20 font-bold">
+                                        <spam className=" font-sans font-bold text-lg">Head Of Events</spam>
+                                    </td>
+                                </tr>
+                                <tr class="bg-gray-900">
+
+                                    <td class="py-5 px-20">
+                                        <spam className="font-bold font-mono text-lg" > Ishani Agarwal</spam>
                                     </td>
                                     <td class="py-5 px-20 font-bold">
                                         <spam className=" font-sans font-bold text-lg">Head Of Events</spam>
@@ -383,7 +329,7 @@ export default function Teams() {
                                 <tr class="bg-gray-900">
 
                                     <td class="py-5 px-20">
-                                        <spam className="font-bold font-mono text-lg" >Dhruv Kunzru</spam>
+                                        <spam className="font-bold font-mono text-lg" >Aayush Sharma</spam>
                                     </td>
                                     <td class="py-5 px-20 font-bold">
                                         <spam className=" font-sans font-bold text-lg">Head Of Projects</spam>
@@ -393,7 +339,7 @@ export default function Teams() {
                                 <tr class="bg-gray-900">
 
                                     <td class="py-5 px-20">
-                                        <spam className="font-bold font-mono text-lg" >  Siddharth</spam>
+                                        <spam className="font-bold font-mono text-lg" >  Vidhi Omar</spam>
                                     </td>
                                     <td class="py-5 px-20 font-bold">
                                         <spam className=" font-sans font-bold text-lg">Head Of Projects</spam>
@@ -404,7 +350,16 @@ export default function Teams() {
                                 <tr class="bg-gray-900">
 
                                     <td class="py-5 px-20">
-                                        <spam className="font-bold font-mono text-lg" >   Ajitesh Saharan</spam>
+                                        <spam className="font-bold font-mono text-lg" >   Priyanshu Jain</spam>
+                                    </td>
+                                    <td class="py-5 px-20 font-bold">
+                                        <spam className=" font-sans font-bold text-lg">Head Of Web Development</spam>
+                                    </td>
+                                </tr>
+                                <tr class="bg-gray-900">
+
+                                    <td class="py-5 px-20">
+                                        <spam className="font-bold font-mono text-lg" >   Ayush D</spam>
                                     </td>
                                     <td class="py-5 px-20 font-bold">
                                         <spam className=" font-sans font-bold text-lg">Head Of Web Development</spam>
@@ -414,7 +369,7 @@ export default function Teams() {
                                 <tr class="bg-gray-900">
 
                                     <td class="py-5 px-20">
-                                        <spam className="font-bold font-mono text-lg" >   Rajat Yadav</spam>
+                                        <spam className="font-bold font-mono text-lg" >   Ishaan Sharma</spam>
                                     </td>
                                     <td class="py-5 px-20 font-bold">
                                         <spam className=" font-sans font-bold text-lg">Head Of Web Development</spam>
