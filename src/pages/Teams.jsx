@@ -426,8 +426,8 @@ export default function Teams() {
       <>
         {/* Our Deputy Heads Section */}
         <section className="pt-20 overflow-x-hidden">
-          <div className="grid text-center justify-center w-full pb-2">
-            <div className="bg-emerald-700 w-max rounded-lg">
+          <div className="flex flex-col items-center w-full pb-2">
+            <div className="bg-emerald-700 rounded-lg">
               <h2 className="pt-10 mb-1 py-2 px-4 text-4xl tracking-tight font-extrabold text-white text-center bg-[#09070b]">
                 Our Deputy Heads
               </h2>
@@ -437,50 +437,50 @@ export default function Teams() {
   
         {/* Deputy Heads Cards */}
         <section className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-          <div className="grid gap-10 mx-auto sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid gap-10 mx-auto sm:grid-cols-2 lg:grid-cols-3 justify-items-center">
             {/* Card 1 */}
-            <div className="text-center">
-              <div className="relative pb-56 mb-4 rounded-lg shadow-lg overflow-hidden">
+            <div className="flex flex-col items-center text-center">
+              <div className="relative w-56 h-56 mb-4 rounded-full overflow-hidden shadow-lg">
                 <img
-                  className="absolute inset-0 object-cover w-full h-full"
+                  className="object-cover w-full h-full"
                   src="/assets/Abhay.jpg"
                   alt="Heer Sharma"
                 />
               </div>
-              <p className="text-lg font-bold">Heer Sharma</p>
-              <p className="mb-5 text-md text-gray-500">Deputy Secretary</p>
+              <p className="text-xl font-bold">Heer Sharma</p>
+              <p className="text-md text-gray-500">Deputy Secretary</p>
             </div>
             {/* Card 2 */}
-            <div className="text-center">
-              <div className="relative pb-56 mb-4 rounded-lg shadow-lg overflow-hidden">
+            <div className="flex flex-col items-center text-center">
+              <div className="relative w-56 h-56 mb-4 rounded-full overflow-hidden shadow-lg">
                 <img
-                  className="absolute inset-0 object-cover w-full h-full"
+                  className="object-cover w-full h-full"
                   src="/assets/Salil Mishra.jpeg"
                   alt="Salil Mishra"
                 />
               </div>
-              <p className="text-lg font-bold">Salil Mishra</p>
-              <p className="mb-5 text-md text-gray-500">Deputy Technical Secretary</p>
+              <p className="text-xl font-bold">Salil Mishra</p>
+              <p className="text-md text-gray-500">Deputy Technical Secretary</p>
             </div>
             {/* Card 3 */}
-            <div className="text-center">
-              <div className="relative pb-56 mb-4 rounded-lg shadow-lg overflow-hidden">
+            <div className="flex flex-col items-center text-center">
+              <div className="relative w-56 h-56 mb-4 rounded-full overflow-hidden shadow-lg">
                 <img
-                  className="absolute inset-0 object-cover w-full h-full"
+                  className="object-cover w-full h-full"
                   src="/assets/Harshada Chandel.jpg"
                   alt="Atharav R Gachchi"
                 />
               </div>
-              <p className="text-lg font-bold">Atharav R Gachchi</p>
-              <p className="mb-5 text-md text-gray-500">Deputy Operation Manager</p>
+              <p className="text-xl font-bold">Atharav R Gachchi</p>
+              <p className="text-md text-gray-500">Deputy Operation Manager</p>
             </div>
           </div>
         </section>
   
         {/* Core Team Section Heading */}
         <section className="pt-5 overflow-x-hidden">
-          <div className="grid text-center justify-center w-full pb-2">
-            <div className="bg-emerald-700 w-max rounded-lg">
+          <div className="flex flex-col items-center w-full pb-2">
+            <div className="bg-emerald-700 rounded-lg">
               <h2 className="pt-10 mb-1 py-2 px-4 text-4xl tracking-tight font-extrabold text-white text-center bg-[#09070b]">
                 Core Team
               </h2>
@@ -490,7 +490,7 @@ export default function Teams() {
   
         {/* Core Team Table */}
         <section className="flex items-center justify-center pt-10 pb-10">
-          <div className="w-full overflow-auto lg:overflow-visible">
+          <div className="w-full max-w-4xl overflow-auto">
             <table className="min-w-full text-gray-400 border-separate space-y-6 text-sm">
               <thead className="bg-gray-800 text-gray-500">
                 <tr>
@@ -508,10 +508,10 @@ export default function Teams() {
                     key={index}
                     className="bg-gray-900 hover:bg-gray-800 transition-colors"
                   >
-                    <td className="py-5 px-20">
+                    <td className="py-5 px-4 text-center">
                       <span className="font-bold font-mono text-lg">{member.name}</span>
                     </td>
-                    <td className="py-5 px-20">
+                    <td className="py-5 px-4 text-center">
                       <span className="font-bold font-sans text-lg">{member.role}</span>
                     </td>
                   </tr>
