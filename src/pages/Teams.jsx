@@ -443,7 +443,7 @@ export default function Teams() {
               <div className="relative w-56 h-56 mb-4 rounded-full overflow-hidden shadow-lg">
                 <img
                   className="object-cover w-full h-full"
-                  src="/assets/Abhay.jpg"
+                  src="/assets/Heer.jpeg"
                   alt="Heer Sharma"
                 />
               </div>
