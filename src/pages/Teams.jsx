@@ -49,7 +49,7 @@ export default function Teams() {
                             <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
                                 <img
                                     className="absolute object-cover w-full h-full rounded"
-                                    src="\assets\Abhijeet.jpg"
+                                    src="\assets\Harshada Chandel.jpg"
                                     alt="Person"
                                 />
                             </div>
