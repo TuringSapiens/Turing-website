@@ -35,7 +35,7 @@ export default function Teams() {
                             <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
                                 <img
                                     className="absolute object-cover w-full h-full rounded"
-                                    src="\assets\Aanya.jpg"
+                                    src="\assets\Salil Mishra.jpeg"
                                     alt="Person"
                                 />
                             </div>
@@ -56,20 +56,6 @@ export default function Teams() {
                             <div className="flex flex-col sm:text-center">
                                 <p className="text-lg font-bold">Atharav R Gachchi</p>
                                 <p className="mb-5 text-md text-gray-500">Deputy Operation Manager</p>
-
-                            </div>
-                        </div>
-                        <div>
-                            <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
-                                <img
-                                    className="absolute object-cover w-full h-full rounded"
-                                    src="\assets\Harsh.png"
-                                    alt="Person"
-                                />
-                            </div>
-                            <div className="flex flex-col sm:text-center">
-                                <p className="text-lg font-bold">Salail Mishra</p>
-                                <p className="mb-5 text-md text-gray-500">Deputy Technical Secretary</p>
 
                             </div>
                         </div>
