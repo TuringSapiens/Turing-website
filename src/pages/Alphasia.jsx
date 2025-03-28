@@ -13,16 +13,17 @@ export default function Alphasia() {
     <div className="min-h-screen bg-black text-white font-sans overflow-hidden relative">
       <section 
         className="relative flex flex-col items-center justify-center h-screen bg-fixed bg-center bg-cover"
-        style={{ backgroundImage: "url('/public/assets/alphasia.webp')" }}
-
+        style={{ backgroundImage: "url('/public/assets/alphasiaSwirl.webp')" }}
       >
-       
+        {/* Dark overlay for contrast */}
         <div className="absolute inset-0 bg-black opacity-75"></div>
+        {/* Main content with glitch header */}
         <div className="relative z-10 text-center px-4">
           <div className="relative inline-block">
             <h1 
               className="text-6xl md:text-8xl font-extrabold text-white glitch" 
               data-text="ALPHASIA"
+              style={{ fontFamily: "'', sans-serif" }}
             >
               ALPHASIA
             </h1>
@@ -31,7 +32,6 @@ export default function Alphasia() {
             Where technology and innovation converge to shape the future.
           </p>
         </div>
-      
         <div 
           onClick={handleScrollDown}
           className="absolute bottom-8 w-full flex flex-col items-center animate-bounce cursor-pointer"
@@ -48,6 +48,7 @@ export default function Alphasia() {
         </div>
       </section>
 
+      {/* Next Section - Coming Soon */}
       <section ref={nextSectionRef} className="min-h-screen bg-gray-900 flex flex-col items-center justify-center">
         <h1 className="text-5xl text-white font-bold mb-8 animate-pulse">
           Coming Soon
@@ -57,6 +58,7 @@ export default function Alphasia() {
         </p>
       </section>
 
+      {/* Glitch effect CSS */}
       <style>{`
         .glitch {
           position: relative;
