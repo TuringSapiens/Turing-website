@@ -29,8 +29,7 @@ export default function Alphasia() {
             </h1>
           </div>
           <p className="text-xl md:text-2xl max-w-2xl mx-auto mt-4">
-            Where technology and innovation converge to shape the future.
-          </p>
+            Innovation     Technolgy     Culture        </p>
         </div>
         <div 
           onClick={handleScrollDown}
