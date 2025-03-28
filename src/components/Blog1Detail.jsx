@@ -108,7 +108,6 @@ const Blog1Detail = () => {
               ))}
             </ul>
 
-            {/* Image Below the Points */}
             {step.image && (
               <div className="flex justify-center">
                 <img
@@ -121,7 +120,6 @@ const Blog1Detail = () => {
           </section>
         ))}
 
-        {/* Conclusion */}
         <section className="mt-10 p-4 border-l-4 border-transparent rounded-lg transition-all duration-300 hover:bg-white/5 hover:shadow-md hover:border-[#94d6df]">
           <h2 className="text-3xl font-bold text-[#94d6df] mb-4">
             Conclusion
