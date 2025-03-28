@@ -14,7 +14,7 @@ export default function Alphasia() {
     <div className="min-h-screen bg-black text-white font-sans overflow-hidden relative">
       <section 
         className="relative flex flex-col items-center justify-center h-screen bg-fixed bg-center bg-cover"
-        style={{ backgroundImage: "url('/public/assets/alphasiaSwirl.webp')" }}
+        style={{ backgroundImage: "url('/assets/alphasiaSwirl.webp')" }}
       >
         {/* Dark overlay for contrast */}
         <div className="absolute inset-0 bg-black opacity-75"></div>
