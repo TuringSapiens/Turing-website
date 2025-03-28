@@ -12,7 +12,7 @@ import ClubWebsite from './components/ClubWebsite';
 import Blog1Detail from "./components/Blog1Detail";
 import Blog1 from "./components/Blog1";
 import Alphasia from './pages/Alphasia.jsx';
-
+import NextPage from './components/NextPage.jsx';
 function App() {
   return (
     <BrowserRouter>
@@ -30,6 +30,7 @@ function App() {
             <Route path="/teams" element={<Teams />} />
             <Route path="/terminal" element={<ClubWebsite />} />
             <Route path="/Alphasia" element={<Alphasia />} />
+            <Route path="/next-page" element={<NextPage />} /> 
           
             <Route path="*" element={<Home />} />
           </Routes>
