@@ -18,7 +18,6 @@ const Home = () => {
 
     return (
         <>
-            {/* <div className="bg-gradient-to-bl from-neutral-900 via-zinc-900 to-stone-900"> */}
             <Landing></Landing>
 
             <Aboutus></Aboutus>
@@ -39,11 +38,9 @@ const Home = () => {
                 </div>
             </section>
 
-            {/* <Marquee></Marquee>    */}
 
             <Executive></Executive>
 
-            {/* </div> */}
 
         </>
     )
