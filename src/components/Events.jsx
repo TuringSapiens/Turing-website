@@ -6,7 +6,8 @@ import './Events.css'
 const eventData = [
     {
         title: "Rebrand This",
-        description: "Join us for an exciting rebranding challenge where creativity meets strategy. Transform existing brands with innovative design thinking and fresh perspectives.",
+        description1: "Join us for an exciting rebranding challenge where creativity meets strategy.", 
+        description2: "Transform existing brands with innovative design thinking and fresh perspectives.",
         date: "July 2024",
         venue: "Online mode",
         image: "https://placehold.co/600x400/000000/2F2F2F"
