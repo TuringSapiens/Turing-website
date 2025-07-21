@@ -4,6 +4,11 @@ import { motion } from 'framer-motion';
 import { Calendar, MapPin } from 'lucide-react';
 
 const EventCard = ({ event }) => {
+    const handleRegistration = () => {
+        // Registration logic will be added here
+        console.log("Registration clicked for:", event.title);
+    };
+  
     return (
         <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -35,11 +40,14 @@ const EventCard = ({ event }) => {
                     <MapPin className="w-4 h-4" />
                     <span className="text-sm">{event.venue}</span>
                 </div>
-                <button className="w-full py-2 mt-4 bg-green-500/10 text-green-500 
-                                  rounded-lg border border-green-500/30
-                                  hover:bg-green-500/20 transition-colors
-                                  font-medium">
-                    Learn More
+                <button 
+                    onClick={handleRegistration}
+                    className="w-full py-2 mt-4 bg-green-500/10 text-green-500 
+                                      rounded-lg border border-green-500/30
+                                      hover:bg-green-500/20 transition-colors
+                                      font-medium"
+                >
+                    Register Now
                 </button>
             </div>
         </motion.div>
@@ -47,48 +55,14 @@ const EventCard = ({ event }) => {
 };
 
 const Events = () => {
-    // Sample event data - this can be replaced with real data later
+    // Updated event data with only "Rebrand This" event
     const events = [
         {
             id: 1,
-            title: 'Tech Workshop',
-            date: 'March 15, 2024',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-            image: 'https://placehold.co/400x300'
-        },
-        {
-            id: 2,
-            title: 'Coding Competition',
-            date: 'April 2, 2024',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-            image: 'https://placehold.co/400x300'
-        },
-        {
-            id: 3,
-            title: 'Hackathon 2024',
-            date: 'April 20, 2024',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-            image: 'https://placehold.co/400x300'
-        },
-        {
-            id: 4,
-            title: 'AI Seminar',
-            date: 'May 5, 2024',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-            image: 'https://placehold.co/400x300'
-        },
-        {
-            id: 5,
-            title: 'Web Dev Workshop',
-            date: 'May 15, 2024',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-            image: 'https://placehold.co/400x300'
-        },
-        {
-            id: 6,
-            title: 'Tech Talk',
-            date: 'June 1, 2024',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            title: 'Rebrand This',
+            date: 'July 2024',
+            venue: 'TBD',
+            description: 'Join us for an exciting rebranding challenge where creativity meets strategy. Transform existing brands with innovative design thinking and fresh perspectives.',
             image: 'https://placehold.co/400x300'
         }
     ];
@@ -110,3 +84,5 @@ const Events = () => {
 };
 
 export default Events;
+  
+  
