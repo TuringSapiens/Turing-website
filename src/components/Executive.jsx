@@ -48,7 +48,7 @@ export default function Executive() {
               <div className='absolute -mt-28 w-full flex justify-center'>
                 <div className='h-60 w-60 bg-emerald-800 hover:bg-gradient-to-r hover:from-fuchsia-600 hover:to-purple-600 p-1 rounded-xl shadow-3xl'>
                   <img
-                    src='/assets/Abhijeet.jpg'
+                    src='/assets/Harshada_Chandel.jpg'
                     alt
                     className=' object-cover h-full w-full rounded-xl shadow-2xl transform transition duration-500 hover:scale-125	'
                   />
@@ -56,7 +56,7 @@ export default function Executive() {
               </div>
               <div className='px-6 pt-36'>
                 <p className='font-bold text-2xl text-center pb-1 text-gray-100'>
-                  Abhijeet Jha
+                  Harshada Chandel
                 </p>
                 <p className='text-gray-100 text-md font-semibold text-center pb-2 italic'>
                   President
@@ -72,7 +72,7 @@ export default function Executive() {
               <div className='absolute -mt-28 w-full flex justify-center'>
                 <div className='h-60 w-60 bg-emerald-800 hover:bg-gradient-to-r hover:from-fuchsia-600 hover:to-purple-600 p-1 rounded-xl shadow-3xl'>
                   <img
-                    src='/assets/Trisha.jpg'
+                    src='/assets/Salil_Mishra.jpeg'
                     alt
                     className=' object-cover h-full w-full rounded-xl shadow-2xl transform transition duration-500 hover:scale-125	'
                   />
@@ -80,7 +80,7 @@ export default function Executive() {
               </div>
               <div className='px-6 pt-36'>
                 <p className='font-bold text-2xl text-center pb-1 text-gray-100'>
-                  Trisha Sharma
+                  Salil Mishra
                 </p>
                 <p className='text-gray-100 text-md font-semibold text-center pb-2 italic'>
                   Vice President
@@ -96,7 +96,7 @@ export default function Executive() {
               <div className='absolute -mt-28 w-full flex justify-center'>
                 <div className='h-60 w-60 bg-emerald-800 hover:bg-gradient-to-r hover:from-fuchsia-600 hover:to-purple-600 p-1 rounded-xl shadow-3xl'>
                   <img
-                    src='/assets/vishesh.jpg'
+                    src='/assets/Heer_Sharma.jpg'
                     alt
                     className=' object-cover h-full w-full rounded-xl shadow-2xl transform transition duration-500 hover:scale-125	'
                   />
@@ -104,7 +104,7 @@ export default function Executive() {
               </div>
               <div className='px-6 pt-36'>
                 <p className='font-bold text-2xl text-center pb-1 text-gray-100'>
-                  Vishesh Gaur
+                  Heer Sharma
                 </p>
                 <p className='text-gray-100 text-md font-semibold text-center pb-2 italic'>
                   General Secretary
@@ -120,7 +120,7 @@ export default function Executive() {
               <div className='absolute -mt-28 w-full flex justify-center'>
                 <div className='h-60 w-60 bg-emerald-800 hover:bg-gradient-to-r hover:from-fuchsia-600 hover:to-purple-600 p-1 rounded-xl shadow-3xl'>
                   <img
-                    src='/assets/Aanya.jpg'
+                    src='/assets/Manvi_Bindal.jpg'
                     alt
                     className=' object-cover h-full w-full rounded-xl shadow-2xl transform transition duration-500 hover:scale-125	'
                   />
@@ -128,7 +128,7 @@ export default function Executive() {
               </div>
               <div className='px-6 pt-36'>
                 <p className='font-bold text-2xl text-center pb-1 text-gray-100'>
-                  Aanya Gupta
+                  Manvi Bindal
                 </p>
                 <p className='text-gray-100 text-md font-semibold text-center pb-2 italic'>
                   Operations Manager
@@ -144,7 +144,7 @@ export default function Executive() {
               <div className='absolute -mt-28 w-full flex justify-center'>
                 <div className='h-60 w-60 bg-emerald-800 hover:bg-gradient-to-r hover:from-fuchsia-600 hover:to-purple-600 p-1 rounded-xl shadow-3xl'>
                   <img
-                    src='/assets/Pranshu.jpg'
+                    src='/assets/Vidhi_Omar.jpg'
                     alt
                     className=' object-cover h-full w-full rounded-xl shadow-2xl transform transition duration-500 hover:scale-125	'
                   />
@@ -152,7 +152,7 @@ export default function Executive() {
               </div>
               <div className='px-6 pt-36'>
                 <p className='font-bold text-2xl text-center pb-1 text-gray-100'>
-                  Pranshu Gautam
+                  Vidhi Omar
                 </p>
                 <p className='text-gray-100 text-md font-semibold text-center pb-2 italic'>
                   Technical Secretary
@@ -168,7 +168,7 @@ export default function Executive() {
               <div className='absolute -mt-28 w-full flex justify-center'>
                 <div className='h-60 w-60 bg-emerald-800 hover:bg-gradient-to-r hover:from-fuchsia-600 hover:to-purple-600 p-1 rounded-xl shadow-3xl'>
                   <img
-                    src='/assets/Chaitanya.jpg'
+                    src='/assets/Aayush_Sharma.jpeg'
                     alt
                     className=' object-cover h-full w-full rounded-xl shadow-2xl transform transition duration-500 hover:scale-125	'
                   />
@@ -176,10 +176,10 @@ export default function Executive() {
               </div>
               <div className='px-6 pt-36'>
                 <p className='font-bold text-2xl text-center pb-1 text-gray-100'>
-                  Treasurer
+                  Aayush Sharma
                 </p>
                 <p className='text-gray-100 text-md font-semibold text-center pb-2 italic'>
-                  Chaitanya Sekra
+                  Treasurer
                 </p>
 
                 <div className='flex justify-center mt-2  '></div>

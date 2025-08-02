@@ -2,38 +2,26 @@
 
 export default function Teams() {
     const coreTeamMembers = [
-      { name: "Dhruv Dave", role: "Head Of Promotions" },
-      { name: "Sanskriti Mandal", role: "Head Of Promotions" },
-      { name: "Manmeet Kaur Anand", role: "Head Of Promotions" },
-      { name: "Aayushi Chhabra", role: "Head Of Promotions" },
-      { name: "Harshita Chopra", role: "Head Of Promotions" },
-      { name: "Harshada Chandel", role: "Head of Design" },
-      { name: "Toshani Gupta", role: "Head of Social Media" },
-      { name: "Dhvani Baid", role: "Head of Social Media" },
-      { name: "Aryan Garv", role: "Head of Content" },
-      { name: "Prisha Anand", role: "Head of Content" },
-      { name: "Anoushka Vats", role: "Head of Content" },
-      { name: "Paras Jain", role: "Head Of Finance & Registration" },
-      { name: "Manvi Bindal", role: "Head Of Finance & Registration" },
-      { name: "Kush Mathur", role: "Head Of Logistics" },
-      { name: "Himank", role: "Head Of Logistics" },
-      { name: "Jai Arora", role: "Head Of Logistics" },
-      { name: "Paarth Chanana", role: "Head Of Logistics" },
-      { name: "Abhimanyu Saxena", role: "Head Of Logistics" },
-      { name: "Siddhant Vashishtha", role: "Head Of Events" },
-      { name: "Lahari R Bavimane", role: "Head Of Events" },
-      { name: "Manas Sharma", role: "Head Of Events" },
-      { name: "Ishani Agarwal", role: "Head Of Events" },
-      { name: "Aayush Sharma", role: "Head Of Projects" },
-      { name: "Vidhi Omar", role: "Head Of Projects" },
-      { name: "Priyanshu Jain", role: "Head Of Web Development" },
-      { name: "Ayush D", role: "Head Of Web Development" },
-      { name: "Ishaan Sharma", role: "Head Of Web Development" }
+      { name: "Akhilesh V", role: "Deputy Technical Secretary" },
+      { name: "Ravi Bansal", role: "Head Of Research & Projects" },
+      { name: "Dhruv Baberwal", role: "Head Of Research & Projects" },
+      { name: "Tanvi Sharma", role: "Head Of Web Development" },
+      { name: "Manas Shrivastava", role: "Deputy Operations Secretary" },
+      { name: "Aastha Anand", role: "Head Of Sponsorships" },
+      { name: "Yashika Singh", role: "Head Of Events" },
+      { name: "Kanishak Gupta", role: "Head Of Events" },
+      { name: "Suraj Kumar", role: "Head Of Logistics" },
+      { name: "Tushar Kumar", role: "Head Of Logistics" },
+      { name: "Siddharth Habbu", role: "Deputy Marketing Secretary" },
+      { name: "Anvesha Vyas", role: "Head Of Design" },
+      { name: "Prajna Shetty", role: "Head Of Content" },
+      { name: "Shreya Singh", role: "Head Of Content" },
+      { name: "Neha Kodali", role: "Head Of Creative Arts" },
     ];
   
     return (
       <>
-        {/* Our Deputy Heads Section */}
+        {/* Our Deputy Heads Section
         <section className="pt-20 overflow-x-hidden">
           <div className="flex flex-col items-center w-full pb-2">
             <div className="bg-emerald-700 rounded-lg">
@@ -44,10 +32,10 @@ export default function Teams() {
           </div>
         </section>
   
-        {/* Deputy Heads Cards */}
+        {/* Deputy Heads Cards
         <section className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
           <div className="grid gap-10 mx-auto sm:grid-cols-2 lg:grid-cols-3 justify-items-center">
-            {/* Card 1 */}
+            {/* Card 1
             <div className="flex flex-col items-center text-center">
               <div className="relative w-56 h-56 mb-4 rounded-full overflow-hidden shadow-lg">
                 <img
@@ -59,7 +47,7 @@ export default function Teams() {
               <p className="text-xl font-bold">Heer Sharma</p>
               <p className="text-md text-gray-500">Deputy Secretary</p>
             </div>
-            {/* Card 2 */}
+            {/* Card 2
             <div className="flex flex-col items-center text-center">
               <div className="relative w-56 h-56 mb-4 rounded-full overflow-hidden shadow-lg">
                 <img
@@ -71,7 +59,7 @@ export default function Teams() {
               <p className="text-xl font-bold">Salil Mishra</p>
               <p className="text-md text-gray-500">Deputy Technical Secretary</p>
             </div>
-            {/* Card 3 */}
+            {/* Card 3
             <div className="flex flex-col items-center text-center">
               <div className="relative w-56 h-56 mb-4 rounded-full overflow-hidden shadow-lg">
                 <img
@@ -84,8 +72,8 @@ export default function Teams() {
               <p className="text-md text-gray-500">Deputy Operation Manager</p>
             </div>
           </div>
-        </section>
-  
+        </section> */}
+
         {/* Core Team Section Heading */}
         <section className="pt-5 overflow-x-hidden">
           <div className="flex flex-col items-center w-full pb-2">
