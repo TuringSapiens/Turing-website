@@ -22,10 +22,10 @@ const Home = () => {
 
             <Aboutus></Aboutus>
             <div className="text-center justify-center w-screen grid place-items-center py-16 ">
-                <div className="animate-bounce w-12 h-12  rounded-full text-center justify-center grid place-items-center border-2 border-sky-500 ">
-                    <FaArrowDown size='1.7rem' />
-                    {/* <p> ↓ </p> */}
-                </div>
+                <h2 className="text-4xl md:text-5xl font-bold text-center text-White-500 mb-8 tracking-wide">
+                    Events
+                </h2>
+
             </div>
 
             <Events></Events>
