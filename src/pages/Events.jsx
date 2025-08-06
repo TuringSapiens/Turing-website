@@ -8,7 +8,7 @@ const EventCard = ({ event }) => (
     initial={{ opacity: 0, y: 20 }}
     animate={{ opacity: 1, y: 0 }}
     transition={{ duration: 0.5 }}
-    className="w-full h-[550px] bg-black rounded-xl 
+    className="w-full h-[650px] bg-black rounded-xl 
                  shadow-[0_0_15px_rgba(0,255,0,0.3)] 
                  border border-green-500/30
                  transition-all duration-300 
@@ -16,10 +16,10 @@ const EventCard = ({ event }) => (
                  hover:transform hover:scale-105
                  group"
   >
-    <div className="h-[300px] overflow-hidden rounded-t-xl bg-neutral-900">
-      <img src={event.image} alt={event.title} className="w-full h-full object-cover opacity-50 group-hover:opacity-70 transition-opacity" />
+    <div className="h-[400px] overflow-hidden rounded-t-xl bg-neutral-900">
+      <img src={event.image} alt={event.title} className="w-full h-full w-auto mx-auto opacity-50 group-hover:opacity-70 transition-opacity" />
     </div>
-    <div className="p-6 space-y-3 h-[45%] flex flex-col">
+    <div className="p-4 space-y-2 h-[36%] flex flex-col">
       <h3 className="text-xl font-bold text-whitetext-xl font-bold text-white group-hover:text-green-400 transition-colors">{event.title}</h3>
       <p className="text-gray-400 text-sm line-clamp-2 flex-grow">{event.description}</p>
       <div className="flex items-center text-green-500 gap-2">
@@ -69,7 +69,7 @@ const Events = () => {
       date: '2025-08-10',
       venue: 'Online Mode',
       description: 'Transform existing brands with innovative design thinking and fresh perspectives.',
-      image: '/assets/POSTER.jpg',
+      image: '/assets/POSTER_resized.jpg',
     }
   ];
 
