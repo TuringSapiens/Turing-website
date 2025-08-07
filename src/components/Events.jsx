@@ -5,11 +5,15 @@ import './Events.css'
 
 const eventData = [
     {
-    title: "MUJ UniWay",
-    description: "Real time campus navigation project.",
-    date: "05/08/2025 to 19/08/2025",
-    image: "/assets/POSTER_resized.jpg"
-  }
+        id: 1,
+        title: 'MUJ UniWay',
+        date: '2025-08-07',
+        venue: 'Hybrid Mode',
+        description: 'MUJ UniWay is a project-based talent hunt focused on building a real-time campus navigation app and website for Manipal University Jaipur.',
+        image: '/assets/Uniway_Poster.png',
+        link: 'https://www.instagram.com/turingsapiensmuj/'
+
+    }
 ];
 
 
@@ -56,7 +60,7 @@ const EventCard = ({ event }) => {
                     </div>
                 </div>
                 <a
-                    href="https://www.instagram.com/turingsapiensmuj/"
+                    href={event.link}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full block text-center py-2 bg-green-500/10 text-green-500 
