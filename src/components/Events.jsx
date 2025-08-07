@@ -5,13 +5,13 @@ import './Events.css'
 
 const eventData = [
     {
-        title: "Rebrand This",
-        description: "Transform existing brands with innovative design thinking and fresh perspectives.",
-        date: "2025-08-10",
-        venue: "Online mode",
-        image: "/assets/POSTER_resized.jpg"
-    }
+    title: "MUJ UniWay",
+    description: "Real time campus navigation project.",
+    date: "05/08/2025 to 19/08/2025",
+    image: "/assets/POSTER_resized.jpg"
+  }
 ];
+
 
 const EventCard = ({ event }) => {
     const handleRegistration = () => {
@@ -82,3 +82,4 @@ const Events = () => {
 };
 
 export default Events;
+
