@@ -51,17 +51,18 @@ const categorizeEvents = (events) => {
     const upcoming = [], past = [], active = [];
 
     events.forEach(event => {
-        const eventDate = dayjs(event.date);
-        if (eventDate.isSame(today, 'day')) active.push(event);
-        else if (eventDate.isAfter(today)) upcoming.push(event);
-        else past.push(event);
+        // const eventDate = dayjs(event.date);
+        // if (eventDate.isSame(today, 'day')) active.push(event);
+        // else if (eventDate.isAfter(today)) upcoming.push(event);
+        // else past.push(event);
+        active.push(event)
     });
 
     return { active, upcoming, past };
 };
 
 const Events = () => {
-    const [activeTab, setActiveTab] = useState('upcoming');
+    const [activeTab, setActiveTab] = useState('active');
 
     const events = [
         {
@@ -71,7 +72,7 @@ const Events = () => {
             venue: 'Hybrid Mode',
             description: 'MUJ UniWay is a project-based talent hunt focused on building a real-time campus navigation app and website for Manipal University Jaipur.',
             image: '/assets/Uniway_Poster.png',
-            link: 'https://www.linkedin.com/company/turing-sapiens/posts/?feedView=all'
+            link: '/assets/uniway_ps.pdf'
         }
     ];
 

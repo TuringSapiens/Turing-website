@@ -11,7 +11,7 @@ const eventData = [
         venue: 'Hybrid Mode',
         description: 'MUJ UniWay is a project-based talent hunt focused on building a real-time campus navigation app and website for Manipal University Jaipur.',
         image: '/assets/Uniway_Poster.png',
-        link: 'https://www.instagram.com/turingsapiensmuj/'
+        link: '/assets/uniway_ps.pdf'
 
     }
 ];
