@@ -16,7 +16,6 @@ export default function Teams() {
     { name: "Atharv Gadhave", role: "Head Of Social Media" },
     { name: "Prajna Shetty", role: "Head Of Content" },
     { name: "Shreya Singh", role: "Head Of Content" },
-    { name: "Neha Kodali", role: "Head Of Creative Arts" },
   ];
 
   return (
