@@ -4,16 +4,18 @@ export default function Teams() {
   const coreTeamMembers = [
     { name: "Ravi Bansal", role: "Head Of Research & Projects" },
     { name: "Dhruv Baberwal", role: "Head Of Research & Projects" },
+    { name: "Akansh", role: "Head Of Research & Projects" },
     { name: "Tanvi Sharma", role: "Head Of Web Development" },
     { name: "Aastha Anand", role: "Head Of Sponsorships" },
     { name: "Yashika Singh", role: "Head Of Events" },
     { name: "Kanishak Gupta", role: "Head Of Events" },
+    { name: "Vaishnavi Mishra", role: "Head Of Events" },
     { name: "Suraj Kumar", role: "Head Of Logistics" },
-    { name: "Tushar Kumar", role: "Head Of Logistics" },
+    { name: "Sunny Kumar", role: "Head Of Logistics" },
     { name: "Anvesha Vyas", role: "Head Of Design" },
+    { name: "Atharv Gadhave", role: "Head Of Social Media" },
     { name: "Prajna Shetty", role: "Head Of Content" },
     { name: "Shreya Singh", role: "Head Of Content" },
-    { name: "Neha Kodali", role: "Head Of Creative Arts" },
   ];
 
   return (
@@ -37,7 +39,7 @@ export default function Teams() {
             <div className="relative w-56 h-56 mb-4 rounded-full overflow-hidden shadow-lg">
               <img
                 className="object-cover w-full h-full"
-                src="/assets/Heer.jpeg"
+                src="/assets/Siddharth_Habbu.jpg"
                 alt="Siddharth Habbu"
               />
             </div>
@@ -61,7 +63,7 @@ export default function Teams() {
             <div className="relative w-56 h-56 mb-4 rounded-full overflow-hidden shadow-lg">
               <img
                 className="object-cover w-full h-full"
-                src="/assets/Atharv.jpeg"
+                src="/assets/Manas.jpg"
                 alt="Manas Shrivastava"
               />
             </div>
