@@ -46,11 +46,11 @@ export default function Executive() {
           <div className='relative'>
             <div className=' overflow-hidden shadow-xl bg-emerald-700  '>
               <div className='absolute -mt-28 w-full flex justify-center'>
-                <div className='h-60 w-60 bg-emerald-800 hover:bg-gradient-to-r hover:from-fuchsia-600 hover:to-purple-600 p-1 rounded-xl shadow-3xl'>
+                <div className='h-60 w-60 bg-emerald-800 p-1 rounded-xl shadow-3xl'>
                   <img
-                    src='/assets/Harshada_Chandel.jpg'
+                    src='/assets/Harshada_Chandel.webp'
                     alt
-                    className=' object-cover h-full w-full rounded-xl shadow-2xl transform transition duration-500 hover:scale-125	'
+                    className=' object-cover h-full w-full rounded-xl shadow-2xl	'
                   />
                 </div>
               </div>
@@ -70,11 +70,11 @@ export default function Executive() {
           <div className='relative'>
             <div className=' overflow-hidden shadow-xl bg-emerald-700  '>
               <div className='absolute -mt-28 w-full flex justify-center'>
-                <div className='h-60 w-60 bg-emerald-800 hover:bg-gradient-to-r hover:from-fuchsia-600 hover:to-purple-600 p-1 rounded-xl shadow-3xl'>
+                <div className='h-60 w-60 bg-emerald-800 p-1 rounded-xl shadow-3xl'>
                   <img
-                    src='/assets/Salil_Mishra.jpeg'
+                    src='/assets/Salil_Mishra.webp'
                     alt
-                    className=' object-cover h-full w-full rounded-xl shadow-2xl transform transition duration-500 hover:scale-125	'
+                    className=' object-cover h-full w-full rounded-xl shadow-2xl	'
                   />
                 </div>
               </div>
@@ -94,11 +94,11 @@ export default function Executive() {
           <div className='relative'>
             <div className=' overflow-hidden shadow-xl bg-emerald-700  '>
               <div className='absolute -mt-28 w-full flex justify-center'>
-                <div className='h-60 w-60 bg-emerald-800 hover:bg-gradient-to-r hover:from-fuchsia-600 hover:to-purple-600 p-1 rounded-xl shadow-3xl'>
+                <div className='h-60 w-60 bg-emerald-800 p-1 rounded-xl shadow-3xl'>
                   <img
-                    src='/assets/Heer_Sharma.jpg'
+                    src='/assets/Heer_Sharma.webp'
                     alt
-                    className=' object-cover h-full w-full rounded-xl shadow-2xl transform transition duration-500 hover:scale-125	'
+                    className=' object-cover h-full w-full rounded-xl shadow-2xl	'
                   />
                 </div>
               </div>
@@ -118,11 +118,11 @@ export default function Executive() {
           <div className='relative'>
             <div className=' overflow-hidden shadow-xl bg-emerald-700  '>
               <div className='absolute -mt-28 w-full flex justify-center'>
-                <div className='h-60 w-60 bg-emerald-800 hover:bg-gradient-to-r hover:from-fuchsia-600 hover:to-purple-600 p-1 rounded-xl shadow-3xl'>
+                <div className='h-60 w-60 bg-emerald-800 p-1 rounded-xl shadow-3xl'>
                   <img
                     src='/assets/Manvi_Bindal.jpg'
                     alt
-                    className=' object-cover h-full w-full rounded-xl shadow-2xl transform transition duration-500 hover:scale-125	'
+                    className=' object-cover h-full w-full rounded-xl shadow-2xl	'
                   />
                 </div>
               </div>
@@ -142,11 +142,11 @@ export default function Executive() {
           <div className='relative'>
             <div className=' overflow-hidden shadow-xl bg-emerald-700  '>
               <div className='absolute -mt-28 w-full flex justify-center'>
-                <div className='h-60 w-60 bg-emerald-800 hover:bg-gradient-to-r hover:from-fuchsia-600 hover:to-purple-600 p-1 rounded-xl shadow-3xl'>
+                <div className='h-60 w-60 bg-emerald-800 p-1 rounded-xl shadow-3xl'>
                   <img
-                    src='/assets/Vidhi_Omar.jpg'
+                    src='/assets/Vidhi_Omar.webp'
                     alt
-                    className=' object-cover h-full w-full rounded-xl shadow-2xl transform transition duration-500 hover:scale-125	'
+                    className=' object-cover h-full w-full rounded-xl shadow-2xl	'
                   />
                 </div>
               </div>
@@ -166,11 +166,11 @@ export default function Executive() {
           <div className='relative'>
             <div className=' overflow-hidden shadow-xl bg-emerald-700  '>
               <div className='absolute -mt-28 w-full flex justify-center'>
-                <div className='h-60 w-60 bg-emerald-800 hover:bg-gradient-to-r hover:from-fuchsia-600 hover:to-purple-600 p-1 rounded-xl shadow-3xl'>
+                <div className='h-60 w-60 bg-emerald-800 p-1 rounded-xl shadow-3xl'>
                   <img
-                    src='/assets/Aayush_Sharma.jpeg'
+                    src='/assets/Aayush_Sharma.webp'
                     alt
-                    className=' object-cover h-full w-full rounded-xl shadow-2xl transform transition duration-500 hover:scale-125	'
+                    className=' object-cover h-full w-full rounded-xl shadow-2xl	'
                   />
                 </div>
               </div>

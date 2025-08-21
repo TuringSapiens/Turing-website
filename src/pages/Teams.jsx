@@ -51,7 +51,7 @@ export default function Teams() {
             <div className="relative w-56 h-56 mb-4 rounded-full overflow-hidden shadow-lg">
               <img
                 className="object-cover w-full h-full"
-                src="/assets/Akhilesh_V.jpg"
+                src="/assets/Akhilesh_V.webp"
                 alt="Akhilesh V"
               />
             </div>
@@ -63,7 +63,7 @@ export default function Teams() {
             <div className="relative w-56 h-56 mb-4 rounded-full overflow-hidden shadow-lg">
               <img
                 className="object-cover w-full h-full"
-                src="/assets/Manas.jpg"
+                src="/assets/Manas.webp"
                 alt="Manas Shrivastava"
               />
             </div>
