@@ -13,6 +13,7 @@ import Blog1Detail from "./components/Blog1Detail";
 import Blog1 from "./components/Blog1";
 import Alphasia from './pages/Alphasia.jsx';
 import UniWay from './pages/UniWay.jsx'
+import EventsPage from './components/EventsPage';
 import NextPage from './components/NextPage.jsx';
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <NavBar />
         <main className="flex-grow">
           <Routes>
+            <Route path="/events/uniway" element={<EventsPage />} />
             <Route path="/" element={<Home />} />
             <Route path="/events" element={<Events />} />
             <Route path="/blogs" element={<Blog />} />
