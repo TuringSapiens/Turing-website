@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Calendar, MapPin } from 'lucide-react';
 import './Events.css'
+import EventsPage from './components/EventsPage';
 import EventCard from './Event_card';
 
 const eventData = [
@@ -12,7 +13,7 @@ const eventData = [
         venue: 'Hybrid Mode',
         description: 'MUJ UniWay is a project-based talent hunt focused on building a real-time campus navigation app and website for Manipal University Jaipur.',
         image: '/assets/Uniway_Poster.png',
-        link: '/assets/uniway_ps.pdf'
+        link: '/events/uniway' 
 
     }
 ];
@@ -27,4 +28,5 @@ const Events = () => {
 };
 
 export default Events;
+
 
