@@ -1,7 +1,8 @@
 import React, { useLayoutEffect, useMemo, useRef } from "react";
 import gsap from "gsap";
+import logoUrl from "/assets/turing_sapiens.jpg"
 
-export default function TuringSplash({ onDone, logoSrc = "/assets/turing_sapiens.jpg" }) {
+export default function TuringSplash({ onDone, logoSrc = logoUrl }) {
   const root = useRef(null);
   const center = useRef(null);
   const streakWrap = useRef(null);
@@ -166,11 +167,9 @@ export default function TuringSplash({ onDone, logoSrc = "/assets/turing_sapiens
 
   return (
     <div ref={root} className="fixed inset-0 z-[9999] bg-black">
-      {/* dark overlay covers your grid, so it feels distinct from landing */}
-      {/* optional sound — if file absent, it's ignored */}
+      
       <audio ref={audioRef} src="/assets/ta-dum.mp3" preload="auto" />
 
-      {/* small spotlight that follows cursor */}
       <div
         ref={cursorLight}
         className="pointer-events-none absolute inset-0"
@@ -201,7 +200,7 @@ export default function TuringSplash({ onDone, logoSrc = "/assets/turing_sapiens
 
           {logoSrc && (
             <img
-              src={logoSrc}
+              src={logoUrl}
               alt="Turing Sapiens"
               className="ts-logo mx-auto mb-6 h-16 w-16 object-contain opacity-95"
             />
