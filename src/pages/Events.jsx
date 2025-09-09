@@ -18,6 +18,16 @@ const Events = () => {
       image: '/assets/Uniway_Poster.png',
       link: '/assets/uniway_ps.pdf',
     },
+    {
+    id: 2,
+    title: 'MOVE Workshop',
+    date: '2025-09-05',
+    venue: 'MUJ Campus, Jaipur',
+    description:
+      'A three-day hands-on workshop covering MOVE fundamentals, demos, and mini-projects.',
+    image: '/assets/Move.jpeg', 
+    link: '#', 
+  },
   ];
 
   const tabMap = {

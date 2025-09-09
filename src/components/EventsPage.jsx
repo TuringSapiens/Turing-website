@@ -1,20 +1,19 @@
 // src/pages/Events.jsx
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { Card, CardContent } from "../components/ui/card";
-import { Button } from "../components/ui/button";
+import { Card, CardContent } from "./ui/card";
 
 // Import photos
-import eventPhoto1 from "../assets/events/event1.jpg";
-import eventPhoto2 from "../assets/events/event2.jpg";
-import eventPhoto3 from "../assets/events/event3.jpg";
+// import eventPhoto1 from "../assets/events/event1.jpg";
+// import eventPhoto2 from "../assets/events/event2.jpg";
+// import eventPhoto3 from "../assets/events/event3.jpg";
 
 // Data driven sections
-const eventPhotos = [
-  { src: eventPhoto1, alt: "Campus Coding Competition" },
-  { src: eventPhoto2, alt: "Tech Talk & Networking" },
-  { src: eventPhoto3, alt: "Hackathon Team Collaboration" },
-];
+// const eventPhotos = [
+//   { src: eventPhoto1, alt: "Campus Coding Competition" },
+//   { src: eventPhoto2, alt: "Tech Talk & Networking" },
+//   { src: eventPhoto3, alt: "Hackathon Team Collaboration" },
+// ];
 
 const timelineEvents = [
   { title: "Registration Opens", date: "July 1st, 2025" },
