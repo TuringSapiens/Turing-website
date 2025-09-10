@@ -17,7 +17,6 @@ import EventsPage from './components/EventsPage';
 import NextPage from './components/NextPage.jsx';
 import Intro from "./pages/Intro"; // the splash page
 
-// Gate: if splash not seen this tab, redirect to /intro
 function RequireIntro({ children }) {
   const location = useLocation();
   const seen = typeof window !== "undefined" && sessionStorage.getItem("ts_splash_seen_v1");
@@ -33,7 +32,10 @@ function AppShell({ children }) {
   return (
     <div className="flex flex-col min-h-screen">
       {!isIntro && <NavBar />}
-      <main className="flex-grow">{children}</main>
+      {/* add top padding so fixed navbar doesn't cover content */}
+      <main className={`flex-grow ${!isIntro ? "pt-16 md:pt-20" : ""}`}>
+        {children}
+      </main>
       {!isIntro && <Footer />}
     </div>
   );

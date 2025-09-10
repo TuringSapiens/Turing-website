@@ -1,13 +1,19 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
-import logoUrl from "/assets/ts_logo.jpg"; /
+import { useEffect, useState } from "react";
+import { Link, useLocation } from "react-router-dom";
+import logoUrl from "/assets/ts_logo.jpg"; 
+
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  const location = useLocation();
+
+  // Close mobile menu whenever the route changes
+  useEffect(() => {
+    setOpen(false);
+  }, [location.pathname]);
 
   const NavLink = ({ to, children }) => (
     <Link
       to={to}
-      onClick={() => setOpen(false)}             // close mobile on navigate
       className="text-white hover:text-gray-300 px-3 py-2 rounded-md text-xl"
     >
       {children}
@@ -15,16 +21,9 @@ const Navbar = () => {
   );
 
   return (
-    <header
-      className="
-        fixed top-0 left-0 right-0
-        z-[200]                                 /* ⬅️ sits above hero */
-        bg-[#09070b]/85 backdrop-blur
-        border-b border-white/10
-      "
-    >
+    <header className="fixed top-0 left-0 right-0 z-[200] bg-[#09070b]/85 backdrop-blur border-b border-white/10">
       <nav className="mx-auto max-w-7xl px-4 md:px-6 py-3 flex items-center justify-between">
-        <Link to="/" className="flex items-center space-x-2" onClick={() => setOpen(false)}>
+        <Link to="/" className="flex items-center">
           <img src={logoUrl} alt="Turing Sapiens" className="h-10 w-auto" />
         </Link>
 
@@ -50,10 +49,10 @@ const Navbar = () => {
           type="button"
           aria-label="Toggle menu"
           className="md:hidden text-white hover:text-gray-300"
-          onClick={() => setOpen(!open)}
+          onClick={() => setOpen(v => !v)}
         >
           <svg className="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"/>
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
           </svg>
         </button>
       </nav>

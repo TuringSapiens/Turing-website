@@ -26,13 +26,12 @@ const Events = () => {
     description:
       'A three-day hands-on workshop covering MOVE fundamentals, demos, and mini-projects.',
     image: '/assets/Move.jpeg', 
-    link: '#', 
+    link: null, 
   },
   ];
 
   const tabMap = {
     active: Uniway,
-    upcoming: [],
     past: [],
   };
 
@@ -44,7 +43,7 @@ const Events = () => {
         </h2>
 
         <div className="flex justify-center flex-wrap gap-4 mb-10">
-          {['active', 'upcoming', 'past'].map(tab => (
+          {['active', 'past'].map(tab => (
             <button
               key={tab}
               onClick={() => setActiveTab(tab)}
