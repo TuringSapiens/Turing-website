@@ -31,8 +31,8 @@ const Events = () => {
   ];
 
   const tabMap = {
-    active: Uniway,
-    past: [],
+    past: Uniway,
+    active: [],
   };
 
   return (
@@ -43,7 +43,7 @@ const Events = () => {
         </h2>
 
         <div className="flex justify-center flex-wrap gap-4 mb-10">
-          {['active', 'past'].map(tab => (
+          {['past', 'active'].map(tab => (
             <button
               key={tab}
               onClick={() => setActiveTab(tab)}

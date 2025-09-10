@@ -11,7 +11,6 @@ export default function TuringSplash({ onDone, logoSrc = logoUrl }) {
   const sparkWrap = useRef(null);
   const audioRef = useRef(null);
 
-  // force a style per-visit if you want via ?v=neon|glitch|aurora (kept)
   const variant = useMemo(() => {
     const q = new URLSearchParams(window.location.search).get("v");
     if (q && ["neon", "glitch", "aurora"].includes(q)) return q;
