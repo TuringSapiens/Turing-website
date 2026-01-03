@@ -58,7 +58,7 @@ export default function Teams() {
                 alt="Akhilesh V"
               />
             </div>
-            <p className="text-xl font-bold">Akhilesh V</p>
+            <p className="text-xl font-bold">V Akhilesh</p>
             <p className="text-md text-gray-500">Deputy Technical Secretary</p>
           </div>
           {/* Card 3 */}
@@ -122,4 +122,5 @@ export default function Teams() {
     </>
   );
 }
+
 
