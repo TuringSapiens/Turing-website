@@ -5,16 +5,7 @@ import './Events.css'
 import EventCard from './Event_card';
 
 const eventData = [
-    {
-        id: 1,
-        title: 'MUJ UniWay',
-        date: '2025-08-07',
-        venue: 'Hybrid Mode',
-        description: 'MUJ UniWay is a project-based talent hunt focused on building a real-time campus navigation app and website for Manipal University Jaipur.',
-        image: '/assets/Uniway_Poster.png',
-        link: '/events/uniway' 
-
-    }
+    {}
 ];
 const Events = () => {
     return (
@@ -27,5 +18,6 @@ const Events = () => {
 };
 
 export default Events;
+
 
 
