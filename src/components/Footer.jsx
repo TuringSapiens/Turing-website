@@ -1,266 +1,115 @@
-import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
-
-// import { HashLink } from 'react-router-hash-link';
-
-
-
+import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 export default function Footer() {
-    return (
-        <>
+  return (
+    <footer className="bg-black text-gray-400">
+      <div className="max-w-screen-xl mx-auto px-6 py-12">
+        
+        {/* Top Section */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
 
-            {/* <footer className="bg-black	px-2 overflow-x-hidden">
-   
-    <div className=" p-1 px-4 py-6 lg:py-8">
-        <div className="mb-6 md:mb-0 w-full lg:flex left-0 right-0 z-10 space-x-1  items-center justify-between">
-            <a href="/" className="flex items-center ">
-                <img
-                    src='/src/assets/ts_logo.jpg'
-                    className="h-10 mr-3"
-                    alt="Turing Sapiens Logo"
-                />
-            </a>
-            <div className="pt-10"></div>
-            <div>
-                <ul className="text-gray-400 font-medium lg:flex lg:space-x-4 items-center justify-center w-full grid pt-2">
-                    <li className="mb-4 ">
-                        <a href="/events" className="hover:underline">
-                            Events
-                        </a>
-                    </li>
-                    <li className="mb-4">
-                        <a href="/projects" className="hover:underline">
-                            Projects
-                        </a>
-                    </li>
-                    <li className="mb-4">
-                        <a href="/blogs" className="hover:underline">
-                            Blogs
-                        </a>
-                    </li>
-                    <li className="mb-4">
-                        <a href="/team" className="hover:underline">
-                            Our Team
-                        </a>
-                    </li>
-                   
-                </ul>
-            </div>
-
-        </div>
-
-        <div className="text-gray-500 text-gray-400 font-medium  flex items-center justify-center w-full py-7">
-
-            <ul className="text-gray-500 text-gray-400 font-medium flex space-x-4">
-                <li className="mb-4">
-                    <a
-                        href=""
-                        className="hover:underline "
-                    >
-                        <FaGithub size='2rem' />
-                    </a>
-                </li>
-                <li className="mb-4">
-                    <a
-                        href=""
-                        className="hover:underline"
-                    >
-                        <FaInstagram size='2rem' />
-                    </a>
-                </li>
-                <li className="mb-4">
-                    <a
-                        href=""
-                        className="hover:underline"
-                    >
-                        <FaLinkedin size='2rem' />
-                    </a>
-                </li>
-            </ul>
-
-        </div>
-
-        <hr className="my-6 border-gray-200 sm:mx-auto border-gray-700 lg:my-8" />
-        <div className="sm:flex sm:items-center sm:justify-between">
-            <span className="text-sm text-gray-500 sm:text-center text-gray-400">
-                © 2023{" "}
-                <a href="/" className="hover:underline">
-                    TURING SAPIENS™
-                </a>
-                . All Rights Reserved.
-            </span>
-
+          {/* Brand */}
+          <div>
             <img
-                    src='/src/assets/muj_logo.jpg'
-                    className="h-10 mr-3"
-                    alt="Turing Sapiens Logo"
-                />
+              src="/assets/ts_logo.jpg"
+              alt="Turing Sapiens Logo"
+              className="h-10 mb-4"
+            />
+            <p className="text-sm leading-relaxed">
+              Turing Sapiens is a student-driven technical club focused on
+              building strong foundations in software, systems, and emerging
+              technologies through hands-on learning and collaboration.
+            </p>
+          </div>
 
-    
+          {/* Navigation */}
+          <div>
+            <h3 className="text-white font-semibold mb-4 uppercase text-sm">
+              Quick Links
+            </h3>
+            <ul className="space-y-3">
+              <li>
+                <a href="/events" className="hover:text-white transition">
+                  Events
+                </a>
+              </li>
+              <li>
+                <a href="/projects" className="hover:text-white transition">
+                  Projects
+                </a>
+              </li>
+              <li>
+                <a href="/blogs" className="hover:text-white transition">
+                  Blogs
+                </a>
+              </li>
+              <li>
+                <a href="/team" className="hover:text-white transition">
+                  Our Team
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          {/* Contact & Social */}
+          <div>
+            <h3 className="text-white font-semibold mb-4 uppercase text-sm">
+              Connect With Us
+            </h3>
+
+            <p className="text-sm mb-4">
+              Manipal University Jaipur<br />
+              Bagru, Jaipur – 303007
+            </p>
+
+            <a
+              href="mailto:turing@muj.manipal.edu"
+              className="text-sm text-[#20b2a2] hover:underline"
+            >
+              turing@muj.manipal.edu
+            </a>
+
+            <div className="flex space-x-5 mt-6 text-xl">
+              {/* Replace links below */}
+              <a
+                href="INSTAGRAM_LINK_HERE"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white transition"
+              >
+                <FaInstagram />
+              </a>
+
+              <a
+                href="WHATSAPP_GROUP_LINK_HERE"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white transition"
+              >
+                <FaWhatsapp />
+              </a>
+            </div>
+          </div>
         </div>
 
+        {/* Divider */}
+        <hr className="my-8 border-gray-700" />
 
-    </div>
+        {/* Bottom Bar */}
+        <div className="flex flex-col sm:flex-row justify-between items-center text-sm">
+          <span>
+            © {new Date().getFullYear()}{" "}
+            <a href="/" className="hover:underline text-white">
+              TURING SAPIENS™
+            </a>
+            . All Rights Reserved.
+          </span>
 
-
-
-</footer> */}
-
-
-
-            <footer class="bg-black">
-                <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-                    <div class="md:flex md:justify-between">
-                        <div class="mb-6 md:mb-0">
-                            <a href="/" class="flex items-center">
-                                <img
-                                    src='/assets/ts_logo.jpg'
-                                    className="h-10 mr-3"
-                                    alt="Turing Sapiens Logo"
-                                />
-
-                            </a>
-                        </div>
-
-
-                        <div className="flex ">
-
-                            <ul className="text-gray-400 font-medium  items-center justify-center ">
-                                <li className="mb-4 ">
-                                    <a href="/events" className="hover:underline">
-                                        Events
-                                    </a>
-                                </li>
-                                <li className="mb-4">
-                                    <a href="/projects" className="hover:underline">
-                                        Projects
-                                    </a>
-                                </li>
-                                <li className="mb-4">
-                                    <a href="/blogs" className="hover:underline">
-                                        Blogs
-                                    </a>
-                                </li>
-                                <li className="mb-4">
-                                    <a href="/team" className="hover:underline">
-                                        Our Team
-                                    </a>
-                                </li>
-
-                            </ul>
-
-                                  {/* <ul className="text-gray-400 font-medium  items-center justify-center ">
-                                <li className="mb-4 ">
-                                    <a href="/events" className="hover:underline">
-                                        Events
-                                    </a>
-                                </li>
-                                <li className="mb-4">
-                                    <a href="/projects" className="hover:underline">
-                                        Projects
-                                    </a>
-                                </li>
-                                <li className="mb-4">
-                                    <a href="/blogs" className="hover:underline">
-                                        Blogs
-                                    </a>
-                                </li>
-                                <li className="mb-4">
-                                    <a href="/team" className="hover:underline">
-                                        Our Team
-                                    </a>
-                                </li>
-
-                            </ul> */}
-
-                        </div>
-
-
-                        <div class="grid grid-cols-2 gap-20 sm:gap-20 sm:grid-cols-3">
-
-
-
-
-                            <div className="">
-                                <h2 class="mb-6 text-sm font-semibold  uppercase text-white">Manipal University,<br></br> Bagru Jaipur, <br></br>303007</h2>
-                                <ul class=" text-gray-400 font-medium">
-                                    <li class="mb-4">
-                                       
-                                    </li>
-                                    <li>
-                                        <a href="" class="hover:underline text-[#20b2a2]">turing@muj.manipal.edu</a>
-                                    </li>
-                                </ul>
-                            </div>
-
-
-                            {/* <div>
-
-                            
-
-                                <h2 class="mb-6 text-sm font-semibold  uppercase text-white ">About the Club</h2>
-                                <p class=" text-gray-400 text-sm text-center">We're committed to enhancing students <br></br>tech skills through mentorship<br></br> and industry collaboration </p>
-                            </div> */}
-                        </div>
-
-
-                    </div>
-
-                    <hr class="my-6  sm:mx-auto border-gray-700 lg:my-8" />
-
-
-
-                    <div class="sm:flex sm:items-center sm:justify-between">
-                        <span className="text-sm  sm:text-center text-gray-400">
-                            © 2023{" "}
-                            <a href="/" className="hover:underline">
-                                TURING SAPIENS™
-                            </a>
-                            . All Rights Reserved.
-                        </span>
-
-                        {/* <div className=" text-gray-400 font-medium  flex ">
-
-                            <ul className=" text-gray-400 font-medium flex space-x-4">
-                                <li className="mb-4">
-                                    <a
-                                        href=""
-                                        className="hover:underline "
-                                    >
-                                        <FaGithub size='1rem' />
-                                    </a>
-                                </li>
-                                <li className="mb-4">
-                                    <a
-                                        href=""
-                                        className="hover:underline"
-                                    >
-                                        <FaInstagram size='1rem' />
-                                    </a>
-                                </li>
-                                <li className="mb-4">
-                                    <a
-                                        href=""
-                                        className="hover:underline"
-                                    >
-                                        <FaLinkedin size='1rem' />
-                                    </a>
-                                </li>
-                            </ul>
-
-                        </div> */}
-
-
-
-
-
-                    </div>
-                </div>
-            </footer>
-
-
-        </>
-
-
-    )
+          <span className="mt-3 sm:mt-0 text-gray-500">
+            Built by the Turing Sapiens Tech Team
+          </span>
+        </div>
+      </div>
+    </footer>
+  );
 }
